@@ -1,0 +1,175 @@
+2026-02-20 11:34:12,802 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-20 11:34:12,815 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-02-20 11:34:13,269 - root - INFO - Conexión exitosa a Internet. Latencia: 453.8 ms.
+2026-02-20 11:35:40,104 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-02-20 11:36:53,001 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-02-20 11:36:55,080 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-02-20 11:37:05,665 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-02-20 11:37:10,841 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-02-20 11:37:10,841 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 1/3)
+2026-02-20 11:37:32,447 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-02-20 11:37:38,226 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-02-20 11:38:33,801 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-02-20 11:38:36,508 - root - WARNING - Intentando reparar el archivo XML mal formado: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\20-11am\00533\Book1.xls
+2026-02-20 11:38:44,874 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\20-11am\Transacciones pendientes por contabilizar en el filtro_20-Febrero-2026_11am.xlsx
+2026-02-20 11:38:47,014 - root - INFO - Se guardo el archivo correctamente
+2026-02-20 11:38:51,492 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-02-20 11:39:29,692 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_52"]' no es visible o clickeable en 10 segundos.
+2026-02-20 13:24:38,382 - root - INFO - el empleado None no fue encontrado en el archivo.
+2026-02-20 13:24:38,389 - root - ERROR - Error al ingresar texto en el campo '//*[@id="C0_36"]': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.133)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7ed595715
+	0x7ff7ed595770
+	0x7ff7ed34108d
+	0x7ff7ed317be2
+	0x7ff7ed3cd386
+	0x7ff7ed3e9772
+	0x7ff7ed38cc28
+	0x7ff7ed38db33
+	0x7ff7ed87e9f0
+	0x7ff7ed878ded
+	0x7ff7ed89969a
+	0x7ff7ed5b11e5
+	0x7ff7ed5b99cc
+	0x7ff7ed59ebf4
+	0x7ff7ed59eda6
+	0x7ff7ed584e87
+	0x7ffe2e8fe8d7
+	0x7ffe2fecc53c
+
+2026-02-20 13:24:46,009 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 13:24:48,201 - root - INFO - el empleado None no fue encontrado en el archivo.
+2026-02-20 13:24:48,203 - root - ERROR - Error al ingresar texto en el campo '//*[@id="C0_36"]': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.133)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7ed595715
+	0x7ff7ed595770
+	0x7ff7ed34108d
+	0x7ff7ed317be2
+	0x7ff7ed3cd386
+	0x7ff7ed3e9772
+	0x7ff7ed38cc28
+	0x7ff7ed38db33
+	0x7ff7ed87e9f0
+	0x7ff7ed878ded
+	0x7ff7ed89969a
+	0x7ff7ed5b11e5
+	0x7ff7ed5b99cc
+	0x7ff7ed59ebf4
+	0x7ff7ed59eda6
+	0x7ff7ed584e87
+	0x7ffe2e8fe8d7
+	0x7ffe2fecc53c
+
+2026-02-20 13:24:50,077 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 13:24:54,171 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 13:25:03,350 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 13:25:07,460 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 13:30:45,525 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:32,214 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:36,315 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:40,395 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:49,601 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:53,801 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:02:57,907 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:07,118 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:11,210 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:15,292 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:24,520 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:28,591 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:32,667 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:41,848 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:45,932 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:50,027 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:03:59,240 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:04:03,329 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:04:07,411 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/execute/sync
+2026-02-20 14:04:12,577 - root - INFO - el empleado None no fue encontrado en el archivo.
+2026-02-20 14:04:16,685 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/element
+2026-02-20 14:04:20,800 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/element
+2026-02-20 14:04:24,912 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59340): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/3712ffb4961b0aa6dc1c45f7a9b306f9/element
+2026-02-20 14:04:29,115 - root - ERROR - Origen '00006737' no encontrado en dict_origen
+2026-02-20 14:04:29,115 - root - ERROR - Origen '00005897' no encontrado en dict_origen
+2026-02-20 14:04:29,115 - root - ERROR - Origen '00006034' no encontrado en dict_origen
+2026-02-20 14:04:29,115 - root - ERROR - Origen '00006041' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006041' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006795' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006794' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006005' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006003' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006002' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006001' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00005999' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006029' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006028' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006027' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006796' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006043' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006970' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006970' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006889' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006138' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006905' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00005913' no encontrado en dict_origen
+2026-02-20 14:04:29,116 - root - ERROR - Origen '00006879' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00007153' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00007024' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00006978' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00007153' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00006036' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00006785' no encontrado en dict_origen
+2026-02-20 14:04:29,117 - root - ERROR - Origen '00006787' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006787' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006786' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006009' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006781' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006783' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006784' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006032' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006788' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006789' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006025' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006780' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006038' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006790' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006782' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006020' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006019' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006037' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006795' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006794' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006005' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006003' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006002' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006001' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00005999' no encontrado en dict_origen
+2026-02-20 14:04:29,118 - root - ERROR - Origen '00006029' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006028' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006027' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006796' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006043' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006035' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006033' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006791' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006632' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00005905' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006129' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006013' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006011' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006407' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006956' no encontrado en dict_origen
+2026-02-20 14:04:29,119 - root - ERROR - Origen '00006799' no encontrado en dict_origen
+2026-02-20 14:05:25,852 - root - INFO - el empleado ALMACEN PROYECTO DIS- CUCUTA no fue encontrado en el archivo.
+2026-02-20 14:06:08,194 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': [Errno 13] Permission denied: 'C:\\CE_FI_DA_1121_Archivos_de_Salida\\Febrero\\20-11am\\Transacciones pendientes por contabilizar en el filtro_20-Febrero-2026_11am.xlsx'

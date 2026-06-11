@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"></DocumentProperties>
+<Styles>
+<Style ss:ID="txtCol">
+<NumberFormat ss:Format="@"/>
+</Style>
+<Style ss:ID="shortDate">
+<NumberFormat ss:Format="yyyy/mm/dd;@"/>
+</Style>
+<Style ss:ID="boldTxt">
+<Font ss:Bold="1"/>
+<NumberFormat ss:Format="@"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="Sheet1">
+<Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="10" x:FullColumns="1" x:FullRows="1"><Column ss:Index="2" ss:StyleID="txtCol"/>
+<Column ss:Index="4" ss:StyleID="txtCol"/>
+<Column ss:Index="6" ss:StyleID="shortDate"/>
+<Column ss:Index="7" ss:StyleID="txtCol"/>
+<Column ss:Index="8" ss:StyleID="txtCol"/>
+<Column ss:Index="10" ss:StyleID="txtCol"/>
+<Column ss:Index="11" ss:StyleID="txtCol"/>
+<Column ss:Index="14" ss:StyleID="txtCol"/>
+<Column ss:Index="15" ss:StyleID="txtCol"/>
+<Column ss:Index="16" ss:StyleID="txtCol"/>
+<Column ss:Index="17" ss:StyleID="txtCol"/>
+<Column ss:Index="18" ss:StyleID="txtCol"/>
+<Column ss:Index="19" ss:StyleID="txtCol"/>
+<Column ss:Index="20" ss:StyleID="txtCol"/>
+<Column ss:Index="22" ss:StyleID="txtCol"/>
+<Column ss:Index="23" ss:StyleID="txtCol"/>
+<Column ss:Index="24" ss:StyleID="txtCol"/>
+<Column ss:Index="25" ss:StyleID="txtCol"/>
+<Column ss:Index="26" ss:StyleID="txtCol"/>
+<Row>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número activo</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Explicación</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Importe                     </Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo doc</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número documento</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Fecha libro mayor</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd rtn</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd contzn</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número línea</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Explicación</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd fact</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Código DOI</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Unidades</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">UM</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cuenta</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo LM</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tp LM aux</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Libro mayor auxiliar</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Compañía documento</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Compañía</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número batch</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo batch</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Extensión línea</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número unidad</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número serie</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Orden de compra</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Importe de monedas</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">MANTENIMIENTO EQUIPO OPERATIVO</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">7012716.16</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201253</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-16</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">RAMIREZ RINCON HERINZO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986500.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1927389</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103670</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CUCUTA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">8200000.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201612</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-21</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">TECNOLOGIA EN PROCESOS DE CONT</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">8200000.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05987300.754002.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1929696</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103742</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">SERVICIOS COMERCIALES</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">30917.70</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201846</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">EMPRESAS PUBLICAS DE MEDELLIN</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986400.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931244</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103932</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">SERVICIOS Y RECURSOS DE TI</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10814954.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201846</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">3.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">EMPRESAS PUBLICAS DE MEDELLIN</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986400.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931244</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103932</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">SERVICIOS Y RECURSOS DE TI</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">2740507.14</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201886</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">EMPRESAS PUBLICAS DE MEDELLIN</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986400.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931253</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103934</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">468099</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">COM, ALQ/MTTO EQ. NO OPERATIVO</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">65782965.47</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">202438</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">23.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0598.162005.02010101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931735</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103891</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">Vig F Mantenimiento</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">17879970.69</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">PV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">21963</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">2.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">EMPRESAS PUBLICAS DE MEDELLIN</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986400.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923209</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">V</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103120</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">MANTENIMIENTO EQUIPO OPERATIVO</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">1332416.07</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">PV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">22030</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-16</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">2.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">RAMIREZ RINCON HERINZO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05986500.511115.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00598</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931968</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">V</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103670</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">113794447.23</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">8200005.00</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

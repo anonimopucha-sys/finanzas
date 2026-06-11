@@ -1,0 +1,34 @@
+2026-04-28 07:23:53,390 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-28 07:23:53,398 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-28 07:23:53,812 - root - INFO - Conexión exitosa a Internet. Latencia: 413.9 ms.
+2026-04-28 07:24:02,732 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-28 07:25:37,741 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-28 07:27:33,401 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-28 07:27:35,558 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-28 07:27:46,585 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-04-28 07:27:49,496 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-28 07:27:51,804 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00534. Intentando de nuevo.
+2026-04-28 07:27:51,804 - root - INFO - Reintentando descarga para #compañía 00534... (Intento 1/3)
+2026-04-28 07:28:10,088 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-28 07:28:33,846 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-28 07:28:35,970 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-28 07:28:46,672 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-04-28 07:28:51,914 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00534. Intentando de nuevo.
+2026-04-28 07:28:51,914 - root - INFO - Reintentando descarga para #compañía 00534... (Intento 2/3)
+2026-04-28 07:29:01,964 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-04-28 07:45:51,295 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-28 07:45:51,296 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-28 07:45:51,665 - root - INFO - Conexión exitosa a Internet. Latencia: 369.49 ms.
+2026-04-28 07:45:59,887 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-28 07:46:48,023 - root - INFO - Pantalla de 2A sin registros.
+2026-04-28 07:46:58,310 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-04-28 07:47:08,594 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-04-28 07:47:13,837 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-28 07:47:13,838 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-28 07:47:17,840 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-28 07:48:14,764 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-28 07:48:17,009 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-28 07:48:27,861 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-04-28 07:48:33,085 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00534. Intentando de nuevo.
+2026-04-28 07:48:33,086 - root - INFO - Reintentando descarga para #compañía 00534... (Intento 1/3)
+2026-04-28 07:48:43,095 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto

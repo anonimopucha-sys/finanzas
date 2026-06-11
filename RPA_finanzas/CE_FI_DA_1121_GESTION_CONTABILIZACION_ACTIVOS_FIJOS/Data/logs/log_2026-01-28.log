@@ -1,0 +1,142 @@
+2026-01-28 15:03:07,382 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 15:03:07,383 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-28 15:03:08,041 - root - INFO - Conexión exitosa a Internet. Latencia: 658.1 ms.
+2026-01-28 15:03:19,352 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-28 15:03:20,375 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff681605715
+	0x7ff681605770
+	0x7ff6813b108d
+	0x7ff68140c3be
+	0x7ff68140c6cc
+	0x7ff68145d2f7
+	0x7ff681459e45
+	0x7ff6813fcc28
+	0x7ff6813fdb33
+	0x7ff6818ee9f0
+	0x7ff6818e8ded
+	0x7ff68190969a
+	0x7ff6816211e5
+	0x7ff6816299cc
+	0x7ff68160ebf4
+	0x7ff68160eda6
+	0x7ff6815f4e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-28 15:03:30,614 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-28 15:03:31,627 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff681605715
+	0x7ff681605770
+	0x7ff6813b108d
+	0x7ff68140c3be
+	0x7ff68140c6cc
+	0x7ff68145d2f7
+	0x7ff681459e45
+	0x7ff6813fcc28
+	0x7ff6813fdb33
+	0x7ff6818ee9f0
+	0x7ff6818e8ded
+	0x7ff68190969a
+	0x7ff6816211e5
+	0x7ff6816299cc
+	0x7ff68160ebf4
+	0x7ff68160eda6
+	0x7ff6815f4e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-28 15:03:41,955 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-28 15:03:52,049 - root - ERROR - error al ignorar 2A en el documento: Message: 
+
+2026-01-28 15:04:02,444 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-01-28 15:28:52,326 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 15:28:52,327 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-28 15:28:52,768 - root - INFO - Conexión exitosa a Internet. Latencia: 441.4 ms.
+2026-01-28 15:30:56,963 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-01-28 15:31:29,191 - root - ERROR - Error en descarga del informe de #compania 00533: Message: 
+
+2026-01-28 15:31:29,191 - root - INFO - Reintentando para #compañía 00533... (Intento 1/3)
+2026-01-28 15:31:51,903 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-28 15:31:54,982 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="wcFrame1"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff681605715
+	0x7ff681605770
+	0x7ff6813b108d
+	0x7ff68140c3be
+	0x7ff68140c6cc
+	0x7ff68145d2f7
+	0x7ff681459e45
+	0x7ff6813fcc28
+	0x7ff6813fdb33
+	0x7ff6818ee9f0
+	0x7ff6818e8ded
+	0x7ff68190969a
+	0x7ff6816211e5
+	0x7ff6816299cc
+	0x7ff68160ebf4
+	0x7ff68160eda6
+	0x7ff6815f4e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-28 15:32:05,435 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-28 15:32:15,537 - root - ERROR - Error en descarga del informe de #compania 00533: Message: 
+
+2026-01-28 15:32:15,538 - root - INFO - Reintentando para #compañía 00533... (Intento 2/3)
+2026-01-28 15:41:39,584 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 15:41:39,585 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-28 15:41:40,031 - root - INFO - Conexión exitosa a Internet. Latencia: 445.0 ms.
+2026-01-28 15:42:16,591 - root - WARNING - no se encontraron registros
+2026-01-28 15:42:20,102 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-01-28 15:42:36,917 - root - WARNING - error ucurrido en el login: intento1
+2026-01-28 15:43:02,770 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 15:43:14,540 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-01-28 15:43:16,261 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 15:43:29,094 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-01-28 15:43:41,922 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-01-28 15:43:51,907 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Enero\28-03pm\Transacciones pendientes por contabilizar en el filtro_28-Enero-2026_03pm.xlsx
+2026-01-28 15:43:53,730 - root - INFO - Se guardo el archivo correctamente
+2026-01-28 15:43:58,681 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-01-28 15:44:05,369 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': Worksheet named 'UsuariosAD_21072025' not found
+2026-01-28 15:51:24,725 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 15:51:31,556 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': Worksheet named 'UsuariosAD_21072025' not found
+2026-01-28 15:51:50,559 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 15:51:50,560 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-28 15:51:50,919 - root - INFO - Conexión exitosa a Internet. Latencia: 359.07 ms.
+2026-01-28 15:52:41,720 - root - WARNING - no se encontraron registros
+2026-01-28 15:52:45,312 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-01-28 15:53:24,581 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 15:53:27,552 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 15:53:36,466 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-01-28 15:53:39,385 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-01-28 15:54:15,552 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-01-28 15:54:30,123 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-01-28 15:54:33,112 - root - INFO - El archivo Transacciones pendientes por contabilizar en el filtro_28-Enero-2026_03pm.xlsx ya existe. No se guardará el archivo para evitar sobrescribir.
+2026-01-28 15:54:34,795 - root - INFO - Se guardo el archivo correctamente
+2026-01-28 15:54:39,795 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-01-28 15:54:46,627 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': Worksheet named 'UsuariosAD_21072025' not found
+2026-01-28 16:05:34,495 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-28 16:05:34,496 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-28 16:05:35,090 - root - INFO - Conexión exitosa a Internet. Latencia: 594.07 ms.
+2026-01-28 16:06:14,292 - root - WARNING - no se encontraron registros
+2026-01-28 16:06:17,892 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-01-28 16:06:33,530 - root - WARNING - error ucurrido en el login: intento1
+2026-01-28 16:06:35,519 - root - WARNING - error ucurrido en el login: intento1
+2026-01-28 16:06:58,692 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 16:07:10,672 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-01-28 16:07:24,822 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-01-28 16:07:40,666 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-01-28 16:08:00,309 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-01-28 16:08:12,882 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-01-28 16:08:22,777 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Enero\28-04pm\Transacciones pendientes por contabilizar en el filtro_28-Enero-2026_04pm.xlsx
+2026-01-28 16:08:24,534 - root - INFO - Se guardo el archivo correctamente
+2026-01-28 16:08:29,883 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-01-28 16:08:36,170 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': Worksheet named 'UsuariosAD_21072025' not found

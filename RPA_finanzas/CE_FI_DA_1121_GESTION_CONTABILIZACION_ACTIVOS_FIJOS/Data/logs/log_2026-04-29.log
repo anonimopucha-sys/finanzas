@@ -1,0 +1,29 @@
+2026-04-29 09:08:11,611 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-29 09:08:11,622 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-29 09:08:11,995 - root - INFO - Conexión exitosa a Internet. Latencia: 373.28 ms.
+2026-04-29 09:08:21,753 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-29 09:09:57,339 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-29 09:12:00,895 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-29 09:12:26,845 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-29 09:12:49,801 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-29 09:13:02,348 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\29-09am\Transacciones pendientes por contabilizar en el filtro_29-Abril-2026_09am.xlsx
+2026-04-29 09:13:04,080 - root - INFO - Se guardo el archivo correctamente
+2026-04-29 09:13:07,819 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-29 09:24:01,112 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\29-09am\Transacciones pendientes por contabilizar en el filtro_29-Abril-2026_09am.xlsx
+2026-04-29 14:35:37,569 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-29 14:35:37,583 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-29 14:35:37,971 - root - INFO - Conexión exitosa a Internet. Latencia: 387.93 ms.
+2026-04-29 14:35:46,762 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-29 14:37:21,897 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-29 14:39:22,468 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-29 14:39:24,574 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-29 14:39:35,440 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-04-29 14:39:36,678 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-29 14:39:40,638 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00598. Intentando de nuevo.
+2026-04-29 14:39:40,638 - root - INFO - Reintentando descarga para #compañía 00598... (Intento 1/3)
+2026-04-29 14:40:27,710 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-29 14:40:28,273 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-29 14:40:36,694 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\29-02pm\Transacciones pendientes por contabilizar en el filtro_29-Abril-2026_02pm.xlsx
+2026-04-29 14:40:37,664 - root - INFO - Se guardo el archivo correctamente
+2026-04-29 14:40:39,236 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-29 14:51:10,604 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\29-02pm\Transacciones pendientes por contabilizar en el filtro_29-Abril-2026_02pm.xlsx

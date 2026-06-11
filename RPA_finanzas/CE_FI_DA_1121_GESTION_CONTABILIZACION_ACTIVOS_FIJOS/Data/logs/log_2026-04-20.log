@@ -1,0 +1,232 @@
+2026-04-20 08:31:05,908 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-20 08:31:05,910 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-20 08:31:06,406 - root - INFO - Conexión exitosa a Internet. Latencia: 495.29 ms.
+2026-04-20 08:31:18,177 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-20 08:33:13,884 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-20 08:35:10,604 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-20 08:35:28,942 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-20 08:36:02,491 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-20 08:36:23,374 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\20-08am\Transacciones pendientes por contabilizar en el filtro_20-Abril-2026_08am.xlsx
+2026-04-20 08:36:27,415 - root - INFO - Se guardo el archivo correctamente
+2026-04-20 08:36:35,425 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-20 08:37:12,342 - root - ERROR - error al analizar PV y OV: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7739c29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7736ea0d0+14e90]
+	chromedriver!(No symbol) [0x7ff77344db2d]
+	chromedriver!(No symbol) [0x7ff773424322]
+	chromedriver!(No symbol) [0x7ff7734d6e86]
+	chromedriver!(No symbol) [0x7ff7734f3482]
+	chromedriver!(No symbol) [0x7ff773499298]
+	chromedriver!(No symbol) [0x7ff77349a183]
+	chromedriver!GetHandleVerifier [0x7ff7739ede0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7739e8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff773a09d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff773706785+31545]
+	chromedriver!GetHandleVerifier [0x7ff77370facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7736f3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7736f37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7736d7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffe137ae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffe1450c53c+2c]
+
+2026-04-20 08:37:39,885 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7739c29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7736ea0d0+14e90]
+	chromedriver!(No symbol) [0x7ff77344db2d]
+	chromedriver!(No symbol) [0x7ff77346523e]
+	chromedriver!(No symbol) [0x7ff773463940]
+	chromedriver!(No symbol) [0x7ff77345677d]
+	chromedriver!(No symbol) [0x7ff7734568f7]
+	chromedriver!(No symbol) [0x7ff77345450e]
+	chromedriver!(No symbol) [0x7ff773458f5f]
+	chromedriver!(No symbol) [0x7ff7734f4f41]
+	chromedriver!(No symbol) [0x7ff7734cff8a]
+	chromedriver!(No symbol) [0x7ff7734f3b9b]
+	chromedriver!(No symbol) [0x7ff773499298]
+	chromedriver!(No symbol) [0x7ff77349a183]
+	chromedriver!GetHandleVerifier [0x7ff7739ede0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7739e8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff773a09d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff773706785+31545]
+	chromedriver!GetHandleVerifier [0x7ff77370facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7736f3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7736f37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7736d7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffe137ae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffe1450c53c+2c]
+
+2026-04-20 08:38:52,750 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:40:09,622 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:41:26,728 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:42:44,282 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:44:01,455 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:45:18,233 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:46:35,555 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:47:53,042 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:49:10,703 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:50:28,201 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:51:43,076 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:52:58,007 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:54:12,975 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:55:28,281 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:56:43,493 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:57:58,421 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 08:59:13,567 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:00:28,840 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:01:43,782 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:02:58,639 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:04:13,439 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:05:28,175 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:06:43,100 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:07:58,286 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:09:13,094 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:10:28,134 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:11:43,544 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:12:58,798 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:14:14,383 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:15:29,721 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:16:45,106 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:18:00,523 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:19:15,899 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:20:32,217 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:21:48,687 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:23:04,374 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:24:19,239 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:25:34,337 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:26:51,735 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:28:10,081 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:29:25,108 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:30:40,122 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:31:54,895 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:33:09,694 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:34:24,637 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:35:39,644 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:36:54,700 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:38:09,717 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:39:24,698 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:40:39,604 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+
+2026-04-20 09:44:32,188 - root - INFO - el empleado ALBARRACIN VILLAMIZAR GLADYS O no fue encontrado en el archivo.
+2026-04-20 09:47:14,935 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,935 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,936 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,937 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006034' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006879' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00007030' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00007144' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006005' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006001' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006043' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006036' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006785' no encontrado en dict_origen
+2026-04-20 09:47:14,938 - root - ERROR - Origen '00006783' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006032' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006025' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006780' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006019' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00005905' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006763' no encontrado en dict_origen
+2026-04-20 09:47:14,939 - root - ERROR - Origen '00006763' no encontrado en dict_origen
+2026-04-20 09:47:21,553 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\20-08am\Transacciones pendientes por contabilizar en el filtro_20-Abril-2026_08am.xlsx

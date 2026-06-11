@@ -1,0 +1,894 @@
+2026-05-25 14:08:09,111 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 14:08:09,113 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 14:08:09,597 - root - INFO - Conexión exitosa a Internet. Latencia: 483.81 ms.
+2026-05-25 14:08:17,701 - root - ERROR - ERROR real al iniciar chrome
+Traceback (most recent call last):
+  File "C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\Functions\descarga_informes.py", line 64, in iniciar_driver
+    driver = webdriver.Chrome(
+        service=service,
+        options=options,
+        keep_alive=True
+    )
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 146
+Current browser version is 148.0.7778.179 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7423a29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7420ca0d0+14e90]
+	chromedriver!(No symbol) [0x7ff741e2db2d]
+	chromedriver!(No symbol) [0x7ff741e75c3d]
+	chromedriver!(No symbol) [0x7ff741e74995]
+	chromedriver!(No symbol) [0x7ff741e6eea7]
+	chromedriver!(No symbol) [0x7ff741e697a1]
+	chromedriver!(No symbol) [0x7ff741ebdc51]
+	chromedriver!(No symbol) [0x7ff741ebd4b6]
+	chromedriver!(No symbol) [0x7ff741e79298]
+	chromedriver!(No symbol) [0x7ff741e7a183]
+	chromedriver!GetHandleVerifier [0x7ff7423cde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7423c8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7423e9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7420e6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7420efacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7420d3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7420d37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7420b7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 14:08:17,887 - root - ERROR - No se pudo iniciar el navegador. Proceso detenido.
+2026-05-25 14:10:37,568 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 14:10:37,568 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 14:10:37,890 - root - INFO - Conexión exitosa a Internet. Latencia: 321.72 ms.
+2026-05-25 14:10:43,062 - root - ERROR - ERROR real al iniciar chrome
+Traceback (most recent call last):
+  File "C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\Functions\descarga_informes.py", line 64, in iniciar_driver
+    driver = webdriver.Chrome(
+        service=service,
+        options=options,
+        keep_alive=True
+    )
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 146
+Current browser version is 148.0.7778.179 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7423a29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7420ca0d0+14e90]
+	chromedriver!(No symbol) [0x7ff741e2db2d]
+	chromedriver!(No symbol) [0x7ff741e75c3d]
+	chromedriver!(No symbol) [0x7ff741e74995]
+	chromedriver!(No symbol) [0x7ff741e6eea7]
+	chromedriver!(No symbol) [0x7ff741e697a1]
+	chromedriver!(No symbol) [0x7ff741ebdc51]
+	chromedriver!(No symbol) [0x7ff741ebd4b6]
+	chromedriver!(No symbol) [0x7ff741e79298]
+	chromedriver!(No symbol) [0x7ff741e7a183]
+	chromedriver!GetHandleVerifier [0x7ff7423cde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7423c8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7423e9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7420e6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7420efacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7420d3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7420d37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7420b7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 14:10:43,066 - root - ERROR - No se pudo iniciar el navegador. Proceso detenido.
+2026-05-25 14:11:49,774 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 14:11:49,775 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 14:11:50,223 - root - INFO - Conexión exitosa a Internet. Latencia: 448.11 ms.
+2026-05-25 14:11:55,476 - root - ERROR - ERROR real al iniciar chrome
+Traceback (most recent call last):
+  File "C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\Functions\descarga_informes.py", line 64, in iniciar_driver
+    driver = webdriver.Chrome(
+        service=service,
+        options=options,
+        keep_alive=True
+    )
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 146
+Current browser version is 148.0.7778.179 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7423a29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7420ca0d0+14e90]
+	chromedriver!(No symbol) [0x7ff741e2db2d]
+	chromedriver!(No symbol) [0x7ff741e75c3d]
+	chromedriver!(No symbol) [0x7ff741e74995]
+	chromedriver!(No symbol) [0x7ff741e6eea7]
+	chromedriver!(No symbol) [0x7ff741e697a1]
+	chromedriver!(No symbol) [0x7ff741ebdc51]
+	chromedriver!(No symbol) [0x7ff741ebd4b6]
+	chromedriver!(No symbol) [0x7ff741e79298]
+	chromedriver!(No symbol) [0x7ff741e7a183]
+	chromedriver!GetHandleVerifier [0x7ff7423cde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7423c8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7423e9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7420e6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7420efacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7420d3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7420d37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7420b7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 14:11:55,488 - root - ERROR - No se pudo iniciar el navegador. Proceso detenido.
+2026-05-25 14:41:49,047 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 14:41:49,047 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 14:41:49,564 - root - INFO - Conexión exitosa a Internet. Latencia: 516.19 ms.
+2026-05-25 14:41:54,919 - root - ERROR - ERROR real al iniciar chrome
+Traceback (most recent call last):
+  File "C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\Functions\descarga_informes.py", line 64, in iniciar_driver
+    driver = webdriver.Chrome(
+        service=service,
+        options=options,
+        keep_alive=True
+    )
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 352, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 146
+Current browser version is 148.0.7778.179 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7114b29c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7111da0d0+14e90]
+	chromedriver!(No symbol) [0x7ff710f3db2d]
+	chromedriver!(No symbol) [0x7ff710f85c3d]
+	chromedriver!(No symbol) [0x7ff710f84995]
+	chromedriver!(No symbol) [0x7ff710f7eea7]
+	chromedriver!(No symbol) [0x7ff710f797a1]
+	chromedriver!(No symbol) [0x7ff710fcdc51]
+	chromedriver!(No symbol) [0x7ff710fcd4b6]
+	chromedriver!(No symbol) [0x7ff710f89298]
+	chromedriver!(No symbol) [0x7ff710f8a183]
+	chromedriver!GetHandleVerifier [0x7ff7114dde0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7114d8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7114f9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7111f6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7111ffacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7111e3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7111e37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7111c7e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 14:41:54,933 - root - ERROR - No se pudo iniciar el navegador. Proceso detenido.
+2026-05-25 15:57:11,799 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 15:57:11,810 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 15:57:12,416 - root - INFO - Conexión exitosa a Internet. Latencia: 605.61 ms.
+2026-05-25 15:57:12,418 - root - ERROR - ERROR real al iniciar chrome
+Traceback (most recent call last):
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 64, in _binary_paths
+    raise ValueError(f"The path is not a valid file: {path}")
+ValueError: The path is not a valid file: C:\RPA\chromedriver-win64\chromedriver.exe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\Functions\descarga_informes.py", line 64, in iniciar_driver
+    driver = webdriver.Chrome(
+        service=service,
+        options=options,
+        keep_alive=True
+    )
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\llachhe\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-05-25 15:57:12,458 - root - ERROR - No se pudo iniciar el navegador. Proceso detenido.
+2026-05-25 16:03:29,831 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 16:03:29,832 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 16:03:30,358 - root - INFO - Conexión exitosa a Internet. Latencia: 526.34 ms.
+2026-05-25 16:03:40,589 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-05-25 16:05:38,386 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-05-25 16:07:43,798 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:07:45,907 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:07:53,384 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-05-25 16:08:04,238 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:08:06,344 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:08:17,171 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:08:32,409 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:08:32,410 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:08:32,410 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 1/3)
+2026-05-25 16:09:25,331 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:09:27,446 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:09:38,345 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:09:53,592 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:09:53,593 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:09:53,593 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 2/3)
+2026-05-25 16:10:38,624 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:10:40,747 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:10:51,640 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:10:57,767 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-05-25 16:11:06,884 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:11:06,884 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:11:06,884 - root - ERROR - Se alcanzó el máximo de intentos (3) para #compañía 00533. No se pudo completar la descarga.
+2026-05-25 16:11:07,959 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-05-25 16:14:54,356 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 16:14:54,356 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 16:14:54,836 - root - INFO - Conexión exitosa a Internet. Latencia: 479.23 ms.
+2026-05-25 16:15:03,699 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-05-25 16:15:56,318 - root - INFO - Pantalla de 2A sin registros.
+2026-05-25 16:16:06,592 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:16:16,841 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:16:22,233 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-05-25 16:16:24,247 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-05-25 16:16:26,245 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-05-25 16:17:23,778 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:17:25,874 - root - ERROR - Error al procesar la tabla: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="jdeGridVirtualAbove0_1"]"}
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 16:17:36,114 - root - ERROR - Timeout: El elemento con identificador 'selectAll0_1' no es visible o clickeable en 10 segundos.
+2026-05-25 16:17:46,343 - root - ERROR - Timeout: El elemento con identificador '//*[@id="GridHeader0_1"]/tbody/tr/td[2]/table/tbody/tr/td[3]/a' no es visible o clickeable en 10 segundos.
+2026-05-25 16:17:56,569 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:18:11,807 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:18:11,807 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:18:11,808 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 1/3)
+2026-05-25 16:19:05,207 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:19:07,307 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:19:17,986 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:19:33,211 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:19:33,212 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:19:33,212 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 2/3)
+2026-05-25 16:20:18,095 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:20:20,218 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:20:30,856 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:20:46,107 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:20:46,108 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-05-25 16:20:46,108 - root - ERROR - Se alcanzó el máximo de intentos (3) para #compañía 00533. No se pudo completar la descarga.
+2026-05-25 16:20:47,192 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-05-25 16:44:27,532 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 16:44:27,532 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 16:44:28,059 - root - INFO - Conexión exitosa a Internet. Latencia: 527.02 ms.
+2026-05-25 16:44:36,931 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-05-25 16:45:13,939 - root - INFO - Pantalla de 2A sin registros.
+2026-05-25 16:45:24,170 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:45:34,396 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:45:39,004 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-05-25 16:45:41,019 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-05-25 16:45:43,020 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-05-25 16:46:34,602 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:46:39,691 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:46:50,340 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:47:05,592 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:47:05,593 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 1/3.
+2026-05-25 16:47:05,593 - root - INFO - Reintentando descarga para #compañía 00533...
+2026-05-25 16:48:09,546 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:48:14,619 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:48:25,215 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:48:40,449 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:48:40,450 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 2/3.
+2026-05-25 16:48:40,450 - root - INFO - Reintentando descarga para #compañía 00533...
+2026-05-25 16:49:46,798 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:49:51,898 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:50:02,492 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-05-25 16:50:17,733 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 16:50:17,734 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 3/3.
+2026-05-25 16:50:17,734 - root - ERROR - Se alcanzó el máximo de intentos (3) para #compañía 00533. No se pudo completar la descarga.
+2026-05-25 16:50:22,322 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-05-25 16:55:39,887 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 16:55:39,887 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 16:55:40,425 - root - INFO - Conexión exitosa a Internet. Latencia: 537.29 ms.
+2026-05-25 16:55:49,075 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-05-25 16:56:36,116 - root - INFO - Pantalla de 2A sin registros.
+2026-05-25 16:56:46,340 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:56:56,585 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-05-25 16:57:01,060 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-05-25 16:57:03,067 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-05-25 16:57:05,069 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-05-25 16:58:02,967 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 16:58:08,068 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 16:58:38,639 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 30 segundos.
+2026-05-25 16:58:43,815 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 1/3.
+2026-05-25 16:58:43,815 - root - INFO - Reintentando descarga para #compañía 00533...
+2026-05-25 17:00:31,164 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-05-25 17:00:39,825 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-04pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_04pm.xlsx
+2026-05-25 17:00:40,775 - root - INFO - Se guardo el archivo correctamente
+2026-05-25 17:00:42,651 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-05-25 17:01:27,766 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_52"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:01:31,798 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_209']/td[@colindex='1']/div/nobr/input): Message: stale element reference: stale element not found
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8b4d6e]
+	chromedriver!(No symbol) [0x7ff63c8b3470]
+	chromedriver!(No symbol) [0x7ff63c8a62ab]
+	chromedriver!(No symbol) [0x7ff63c8a6425]
+	chromedriver!(No symbol) [0x7ff63c8a404e]
+	chromedriver!(No symbol) [0x7ff63c8a8aaf]
+	chromedriver!(No symbol) [0x7ff63c945c4d]
+	chromedriver!(No symbol) [0x7ff63c92003a]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:12:57,408 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:13:05,628 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:13:05,628 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:13:38,259 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:13:46,758 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:13:46,769 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:14:21,104 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:14:29,745 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:14:29,746 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:15:01,887 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:15:10,630 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:15:10,630 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:15:44,676 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:15:53,475 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:15:53,476 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:16:25,549 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:16:34,461 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:16:34,463 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:17:08,351 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:17:17,305 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:17:17,306 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:17:49,060 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:17:58,047 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:17:58,047 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_8"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:18:31,753 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:18:40,798 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:18:40,798 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_1']/td[@colindex='0']/div/nobr/input): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff63cb362f5+14675]
+	chromedriver!GetHandleVerifier [0x7ff63cb36360+146e0]
+	chromedriver!(No symbol) [0x7ff63c89d66d]
+	chromedriver!(No symbol) [0x7ff63c8f6d2e]
+	chromedriver!(No symbol) [0x7ff63c8f703c]
+	chromedriver!(No symbol) [0x7ff63c947ce7]
+	chromedriver!(No symbol) [0x7ff63c944857]
+	chromedriver!(No symbol) [0x7ff63c8e93a8]
+	chromedriver!(No symbol) [0x7ff63c8ea293]
+	chromedriver!GetHandleVerifier [0x7ff63ce52179+3304f9]
+	chromedriver!GetHandleVerifier [0x7ff63ce4c6a6+32aa26]
+	chromedriver!GetHandleVerifier [0x7ff63ce70732+34eab2]
+	chromedriver!GetHandleVerifier [0x7ff63cb53d15+32095]
+	chromedriver!GetHandleVerifier [0x7ff63cb5c9fc+3ad7c]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f684+1da04]
+	chromedriver!GetHandleVerifier [0x7ff63cb3f836+1dbb6]
+	chromedriver!GetHandleVerifier [0x7ff63cb24507+2887]
+	KERNEL32!BaseThreadInitThunk [0x7fff7944e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff7b6cc53c+2c]
+
+2026-05-25 17:19:02,767 - root - ERROR - error en ingreso de pv_ov 00107734-0534.230615.01550360 : se hara reintento 1
+2026-05-25 17:19:20,056 - root - ERROR - error en ingreso de pv_ov 00107750-05337500.754002.01550101 : se hara reintento 1
+2026-05-25 17:19:20,568 - root - ERROR - error en ingreso de pv_ov 00107673-0533.230615.01550360 : se hara reintento 1
+2026-05-25 17:19:20,579 - root - ERROR - Origen '00007121' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007120' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007152' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007015' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007018' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007154' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007152' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007015' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00007018' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00006794' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00006005' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00006002' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen '00006001' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,580 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00005897' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00007030' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006970' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006970' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00007001' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006982' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00007167' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006138' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006978' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00006966' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00007139' no encontrado en dict_origen
+2026-05-25 17:19:20,581 - root - ERROR - Origen '00007166' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006879' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006801' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006930' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006893' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006003' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006002' no encontrado en dict_origen
+2026-05-25 17:19:20,582 - root - ERROR - Origen '00006001' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006000' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00005999' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006029' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006027' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006796' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006793' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006028' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006043' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006036' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006785' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006787' no encontrado en dict_origen
+2026-05-25 17:19:20,583 - root - ERROR - Origen '00006035' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen '00006786' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:20,584 - root - ERROR - Origen 'None' no encontrado en dict_origen
+2026-05-25 17:19:30,354 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-04pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_04pm.xlsx
+2026-05-25 17:35:39,321 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 17:35:39,321 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-05-25 17:35:39,833 - root - INFO - Conexión exitosa a Internet. Latencia: 511.55 ms.
+2026-05-25 17:35:48,648 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-05-25 17:36:24,808 - root - INFO - Pantalla de 2A sin registros.
+2026-05-25 17:36:35,031 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:36:45,262 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-05-25 17:36:50,106 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-05-25 17:37:58,775 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 17:37:59,498 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-05-25 17:38:03,862 - root - ERROR - Timeout: El elemento con identificador 'C0_100' no es visible o clickeable en 10 segundos.
+2026-05-25 17:38:03,904 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 17:38:34,687 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 30 segundos.
+2026-05-25 17:38:49,963 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 17:38:49,964 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 1/3.
+2026-05-25 17:38:49,964 - root - INFO - Reintentando descarga para #compañía 00533...
+2026-05-25 17:39:50,979 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 17:39:56,064 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 17:40:26,607 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 30 segundos.
+2026-05-25 17:40:41,816 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 17:40:41,817 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 2/3.
+2026-05-25 17:40:41,817 - root - INFO - Reintentando descarga para #compañía 00533...
+2026-05-25 17:41:55,083 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-05-25 17:41:56,574 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-05-25 17:42:00,160 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-05-25 17:42:30,683 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 30 segundos.
+2026-05-25 17:42:45,905 - root - ERROR - Timeout: El elemento con identificador 'C0_89' no es visible o clickeable en 10 segundos.
+2026-05-25 17:42:45,906 - root - WARNING - No se encontraron archivos para #compañía 00533. Intento 3/3.
+2026-05-25 17:42:45,906 - root - ERROR - Se alcanzó el máximo de intentos (3) para #compañía 00533. No se pudo completar la descarga.
+2026-05-25 17:42:50,994 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-05-25 17:51:38,964 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-05-25 17:51:38,965 - root - ERROR - Error al ejecutar el paso 'descargar_informes': cannot access local variable 'USER' where it is not associated with a value

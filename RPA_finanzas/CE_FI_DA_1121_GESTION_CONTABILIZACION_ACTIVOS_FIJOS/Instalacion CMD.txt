@@ -1,0 +1,247 @@
+=====================================================
+MANUAL DE INSTALACIÓN – RPA FINANZAS
+=====================================================
+
+
+=====================================================
+1. ABRIR CMD COMO ADMINISTRADOR
+=====================================================
+
+1. Presione Windows + R
+2. Escriba:
+
+cmd
+
+3. Presione Ctrl + Shift + Enter
+
+
+=====================================================
+2. ABRIR LA CARPETA DEL PROYECTO
+=====================================================
+
+cd /d C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS
+
+Verificar contenido:
+
+dir
+
+
+=====================================================
+3. VERIFICAR PYTHON Y PIP
+=====================================================
+
+Validar instalación de Python:
+
+python --version
+
+Validar instalación de pip:
+
+pip --version
+
+
+=====================================================
+4. CREAR ENTORNO VIRTUAL (SOLO PRIMERA VEZ)
+=====================================================
+
+python -m venv venv
+
+
+=====================================================
+5. ACTIVAR ENTORNO VIRTUAL
+=====================================================
+
+venv\Scripts\activate
+
+Debe aparecer algo similar:
+
+(venv) C:\RPA_finanzas\...
+
+
+=====================================================
+6. ACTUALIZAR PIP
+=====================================================
+
+python -m pip install --upgrade pip
+
+
+=====================================================
+7. INSTALAR DEPENDENCIAS DEL PROYECTO
+=====================================================
+
+pip install -r requirements.txt
+
+
+=====================================================
+8. INSTALAR CERTIFICADOS DE WINDOWS
+=====================================================
+
+pip install python-certifi-win32
+
+Actualizar certificados:
+
+pip install --upgrade certifi
+
+
+=====================================================
+9. VERIFICAR GOOGLE CHROME
+=====================================================
+
+Abrir Google Chrome:
+
+start chrome
+
+Verificar que el navegador abra correctamente.
+
+
+=====================================================
+10. VERIFICAR WEBDRIVER-MANAGER
+=====================================================
+
+python -c "from webdriver_manager.chrome import ChromeDriverManager; print('OK')"
+
+Si aparece:
+
+OK
+
+la configuración es correcta.
+
+
+=====================================================
+11. PROBAR SELENIUM + CHROME
+=====================================================
+
+python -c "from selenium import webdriver; from selenium.webdriver.chrome.service import Service; from webdriver_manager.chrome import ChromeDriverManager; driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())); print('OK'); driver.quit()"
+
+Debe abrirse Chrome automáticamente y mostrar:
+
+OK
+
+
+=====================================================
+12. BUSCAR CHROMEDRIVER ANTIGUO
+=====================================================
+
+where chromedriver
+
+
+=====================================================
+13. ELIMINAR DRIVER ANTIGUO (SI EXISTE)
+=====================================================
+
+rmdir /s /q C:\RPA_finanzas\chromedriver-win64
+
+
+=====================================================
+14. EJECUTAR LA RPA
+=====================================================
+
+CE1121.bat
+
+
+=====================================================
+15. EJECUTAR PYTHON MANUALMENTE (SI FALLA EL BAT)
+=====================================================
+
+python App\main.py
+
+
+=====================================================
+16. ACTUALIZAR EL REPOSITORIO GIT
+=====================================================
+
+Descargar cambios:
+
+git pull origin main --rebase
+
+Guardar cambios:
+
+git add .
+git commit -m "Actualización"
+git push origin main
+
+
+=====================================================
+17. SOLUCIÓN DE ERRORES COMUNES
+=====================================================
+
+ERROR GIT PUSH
+
+Mensaje:
+
+Updates were rejected
+
+Solución:
+
+git pull origin main --rebase
+
+
+-----------------------------------------------------
+
+ERROR DE CONFLICTOS GIT
+
+Mensaje:
+
+unmerged files
+
+Solución:
+
+1. Abrir archivos en conflicto
+2. Eliminar:
+
+<<<<<<<
+=======
+>>>>>>>
+
+3. Luego ejecutar:
+
+git add .
+git rebase --continue
+git push origin main
+
+
+-----------------------------------------------------
+
+ERROR CHROMEDRIVER
+
+Solución:
+
+rmdir /s /q C:\RPA_finanzas\chromedriver-win64
+
+Luego volver a ejecutar la RPA.
+
+
+-----------------------------------------------------
+
+ERROR “ModuleNotFoundError”
+
+Solución:
+
+pip install -r requirements.txt
+
+
+=====================================================
+18. ESTRUCTURA GENERAL DEL PROYECTO
+=====================================================
+
+App/
+Datos/
+Indice/
+Libs/
+requirements.txt
+CE1121.bat
+README.md
+
+
+=====================================================
+19. RECOMENDACIONES
+=====================================================
+
+- Ejecutar siempre CMD como administrador
+- Mantener Google Chrome actualizado
+- No eliminar archivos del proyecto manualmente
+- Realizar git pull antes de trabajar
+- Realizar git push al finalizar cambios
+
+
+=====================================================
+FIN DEL MANUAL

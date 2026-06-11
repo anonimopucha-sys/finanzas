@@ -1,0 +1,114 @@
+2026-04-27 09:43:59,363 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-27 09:43:59,376 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-27 09:43:59,743 - root - INFO - Conexión exitosa a Internet. Latencia: 366.81 ms.
+2026-04-27 09:44:09,269 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-27 09:44:18,045 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-27 09:44:19,072 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77a1529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff779e7a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff779bddb2d]
+	chromedriver!(No symbol) [0x7ff779c36b9e]
+	chromedriver!(No symbol) [0x7ff779c36eac]
+	chromedriver!(No symbol) [0x7ff779c86fe7]
+	chromedriver!(No symbol) [0x7ff779c83b9b]
+	chromedriver!(No symbol) [0x7ff779c29298]
+	chromedriver!(No symbol) [0x7ff779c2a183]
+	chromedriver!GetHandleVerifier [0x7ff77a17de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff77a178588+313348]
+	chromedriver!GetHandleVerifier [0x7ff77a199d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff779e96785+31545]
+	chromedriver!GetHandleVerifier [0x7ff779e9facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff779e83634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff779e837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff779e67e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff92b8ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff92ca0c53c+2c]
+
+2026-04-27 09:44:29,350 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-27 09:44:30,363 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77a1529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff779e7a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff779bddb2d]
+	chromedriver!(No symbol) [0x7ff779c36b9e]
+	chromedriver!(No symbol) [0x7ff779c36eac]
+	chromedriver!(No symbol) [0x7ff779c86fe7]
+	chromedriver!(No symbol) [0x7ff779c83b9b]
+	chromedriver!(No symbol) [0x7ff779c29298]
+	chromedriver!(No symbol) [0x7ff779c2a183]
+	chromedriver!GetHandleVerifier [0x7ff77a17de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff77a178588+313348]
+	chromedriver!GetHandleVerifier [0x7ff77a199d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff779e96785+31545]
+	chromedriver!GetHandleVerifier [0x7ff779e9facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff779e83634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff779e837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff779e67e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff92b8ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff92ca0c53c+2c]
+
+2026-04-27 09:44:40,653 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-27 09:44:50,724 - root - ERROR - error al ignorar 2A en el documento: Message: 
+
+2026-04-27 09:45:00,988 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-04-27 09:46:06,589 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-27 09:46:06,589 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-27 09:46:06,936 - root - INFO - Conexión exitosa a Internet. Latencia: 346.55 ms.
+2026-04-27 09:46:14,877 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-27 09:46:23,555 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-27 09:46:24,570 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77a1529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff779e7a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff779bddb2d]
+	chromedriver!(No symbol) [0x7ff779c36b9e]
+	chromedriver!(No symbol) [0x7ff779c36eac]
+	chromedriver!(No symbol) [0x7ff779c86fe7]
+	chromedriver!(No symbol) [0x7ff779c83b9b]
+	chromedriver!(No symbol) [0x7ff779c29298]
+	chromedriver!(No symbol) [0x7ff779c2a183]
+	chromedriver!GetHandleVerifier [0x7ff77a17de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff77a178588+313348]
+	chromedriver!GetHandleVerifier [0x7ff77a199d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff779e96785+31545]
+	chromedriver!GetHandleVerifier [0x7ff779e9facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff779e83634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff779e837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff779e67e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff92b8ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff92ca0c53c+2c]
+
+2026-04-27 09:46:34,801 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-27 09:46:35,813 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77a1529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff779e7a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff779bddb2d]
+	chromedriver!(No symbol) [0x7ff779c36b9e]
+	chromedriver!(No symbol) [0x7ff779c36eac]
+	chromedriver!(No symbol) [0x7ff779c86fe7]
+	chromedriver!(No symbol) [0x7ff779c83b9b]
+	chromedriver!(No symbol) [0x7ff779c29298]
+	chromedriver!(No symbol) [0x7ff779c2a183]
+	chromedriver!GetHandleVerifier [0x7ff77a17de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff77a178588+313348]
+	chromedriver!GetHandleVerifier [0x7ff77a199d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff779e96785+31545]
+	chromedriver!GetHandleVerifier [0x7ff779e9facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff779e83634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff779e837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff779e67e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff92b8ce8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff92ca0c53c+2c]
+
+2026-04-27 09:46:46,006 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-27 09:46:56,059 - root - ERROR - error al ignorar 2A en el documento: Message: 
+
+2026-04-27 09:47:06,251 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-04-27 09:47:16,457 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-04-27 09:47:20,314 - root - INFO - Paso 1 completado: verificación de 2A.

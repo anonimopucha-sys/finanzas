@@ -1,0 +1,43 @@
+2026-04-22 07:27:24,176 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-22 07:27:24,178 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-22 07:27:24,615 - root - INFO - Conexión exitosa a Internet. Latencia: 437.34 ms.
+2026-04-22 07:27:33,435 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-22 07:29:07,470 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-22 07:31:00,279 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-22 07:31:02,457 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-22 07:31:11,280 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-22 07:31:13,161 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-22 07:31:30,197 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-22 07:31:39,495 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\22-07am\Transacciones pendientes por contabilizar en el filtro_22-Abril-2026_07am.xlsx
+2026-04-22 07:31:40,695 - root - INFO - Se guardo el archivo correctamente
+2026-04-22 07:31:42,822 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-22 07:32:26,144 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_52"]' no es visible o clickeable en 10 segundos.
+2026-04-22 07:32:31,343 - root - ERROR - Error escribiendo texto en JDE (//*[@id='qbeRow0_209']/td[@colindex='1']/div/nobr/input): Message: stale element reference: stale element not found
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7452629c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff744f8a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff744cedb2d]
+	chromedriver!(No symbol) [0x7ff744d0523e]
+	chromedriver!(No symbol) [0x7ff744d03940]
+	chromedriver!(No symbol) [0x7ff744cf677d]
+	chromedriver!(No symbol) [0x7ff744cf68f7]
+	chromedriver!(No symbol) [0x7ff744cf450e]
+	chromedriver!(No symbol) [0x7ff744cf8f5f]
+	chromedriver!(No symbol) [0x7ff744d94f41]
+	chromedriver!(No symbol) [0x7ff744d6ff8a]
+	chromedriver!(No symbol) [0x7ff744d93b9b]
+	chromedriver!(No symbol) [0x7ff744d39298]
+	chromedriver!(No symbol) [0x7ff744d3a183]
+	chromedriver!GetHandleVerifier [0x7ff74528de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff745288588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7452a9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff744fa6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff744fafacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff744f93634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff744f937e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff744f77e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffe137ae8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffe1450c53c+2c]
+
+2026-04-22 07:44:08,903 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\22-07am\Transacciones pendientes por contabilizar en el filtro_22-Abril-2026_07am.xlsx

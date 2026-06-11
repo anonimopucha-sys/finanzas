@@ -1,0 +1,102 @@
+2026-01-26 11:00:56,445 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-26 11:00:59,842 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-26 11:01:00,856 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff73c335715
+	0x7ff73c335770
+	0x7ff73c0e108d
+	0x7ff73c13c3be
+	0x7ff73c13c6cc
+	0x7ff73c18d2f7
+	0x7ff73c189e45
+	0x7ff73c12cc28
+	0x7ff73c12db33
+	0x7ff73c61e9f0
+	0x7ff73c618ded
+	0x7ff73c63969a
+	0x7ff73c3511e5
+	0x7ff73c3599cc
+	0x7ff73c33ebf4
+	0x7ff73c33eda6
+	0x7ff73c324e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-26 11:01:01,681 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-26 11:01:02,697 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff73c335715
+	0x7ff73c335770
+	0x7ff73c0e108d
+	0x7ff73c13c3be
+	0x7ff73c13c6cc
+	0x7ff73c18d2f7
+	0x7ff73c189e45
+	0x7ff73c12cc28
+	0x7ff73c12db33
+	0x7ff73c61e9f0
+	0x7ff73c618ded
+	0x7ff73c63969a
+	0x7ff73c3511e5
+	0x7ff73c3599cc
+	0x7ff73c33ebf4
+	0x7ff73c33eda6
+	0x7ff73c324e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-26 11:01:03,790 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-26 11:01:04,803 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff73c335715
+	0x7ff73c335770
+	0x7ff73c0e108d
+	0x7ff73c13c3be
+	0x7ff73c13c6cc
+	0x7ff73c18d2f7
+	0x7ff73c189e45
+	0x7ff73c12cc28
+	0x7ff73c12db33
+	0x7ff73c61e9f0
+	0x7ff73c618ded
+	0x7ff73c63969a
+	0x7ff73c3511e5
+	0x7ff73c3599cc
+	0x7ff73c33ebf4
+	0x7ff73c33eda6
+	0x7ff73c324e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-26 11:01:11,017 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-26 11:01:12,859 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-26 11:01:14,027 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff73c335715
+	0x7ff73c335770
+	0x7ff73c0e108d
+	0x7ff73c13c3be
+	0x7ff73c13c6cc
+	0x7ff73c18d2f7
+	0x7ff73c189e45
+	0x7ff73c12cc28
+	0x7ff73c12db33
+	0x7ff73c61e9f0
+	0x7ff73c618ded
+	0x7ff73c63969a
+	0x7ff73c3511e5
+	0x7ff73c3599cc
+	0x7ff73c33ebf4
+	0x7ff73c33eda6
+	0x7ff73c324e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+

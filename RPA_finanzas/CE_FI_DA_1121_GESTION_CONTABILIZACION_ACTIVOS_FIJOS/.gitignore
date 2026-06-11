@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Ignorar credenciales en App/config
+App/config/.env

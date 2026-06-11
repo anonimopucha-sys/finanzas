@@ -1,0 +1,21 @@
+{
+  "typeCheckingMode": "standard",
+  "reportUnknownVariableType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownLambdaType": false,
+  "reportMissingParameterType": false,
+  "reportUnusedImport": false,
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false,
+  "reportAttributeAccessIssue": false,
+  "reportArgumentType": false,
+  "reportOperatorIssue": false,
+  "reportUnnecessaryCast": false,
+  "reportUnnecessaryComparison": false,
+  "reportUnusedVariable": false,
+  "pythonVersion": "3.10"
+}
+
+

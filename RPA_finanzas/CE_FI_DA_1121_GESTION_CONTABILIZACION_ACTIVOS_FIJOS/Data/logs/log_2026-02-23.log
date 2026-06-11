@@ -1,0 +1,29 @@
+2026-02-23 07:12:58,810 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-23 07:12:58,811 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-02-23 07:12:59,236 - root - INFO - Conexión exitosa a Internet. Latencia: 425.34 ms.
+2026-02-23 07:14:27,958 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-02-23 07:16:16,819 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-02-23 07:16:17,330 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-02-23 07:16:25,742 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-02-23 07:16:43,327 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-02-23 07:16:45,732 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-02-23 07:50:51,146 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-23 07:50:51,157 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-02-23 07:50:52,623 - root - INFO - Conexión exitosa a Internet. Latencia: 1466.02 ms.
+2026-02-23 07:50:52,623 - root - ERROR - Advertencia: La latencia es demasiado alta (1466.02 ms). La conexión puede no ser confiable.
+2026-02-23 07:50:52,623 - root - ERROR - No se cumplen los requisitos minimos
+2026-02-23 07:51:40,100 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-23 07:51:40,100 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-02-23 07:51:40,407 - root - INFO - Conexión exitosa a Internet. Latencia: 307.38 ms.
+2026-02-23 07:52:24,244 - root - WARNING - no se encontraron registros
+2026-02-23 07:52:28,409 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-02-23 07:52:28,411 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-02-23 07:52:30,412 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-02-23 07:53:07,254 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-02-23 07:53:12,334 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-02-23 07:53:18,363 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-02-23 07:53:23,401 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\23-07am\Transacciones pendientes por contabilizar en el filtro_23-Febrero-2026_07am.xlsx
+2026-02-23 07:53:24,182 - root - INFO - Se guardo el archivo correctamente
+2026-02-23 07:53:25,588 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-02-23 07:54:02,416 - root - ERROR - Timeout: El elemento con identificador '//*[@id="C0_52"]' no es visible o clickeable en 10 segundos.
+2026-02-23 08:19:07,112 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\23-07am\Transacciones pendientes por contabilizar en el filtro_23-Febrero-2026_07am.xlsx

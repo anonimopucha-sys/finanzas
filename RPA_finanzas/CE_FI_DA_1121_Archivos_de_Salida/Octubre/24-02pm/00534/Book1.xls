@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"></DocumentProperties>
+<Styles>
+<Style ss:ID="txtCol">
+<NumberFormat ss:Format="@"/>
+</Style>
+<Style ss:ID="shortDate">
+<NumberFormat ss:Format="yyyy/mm/dd;@"/>
+</Style>
+<Style ss:ID="boldTxt">
+<Font ss:Bold="1"/>
+<NumberFormat ss:Format="@"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="Sheet1">
+<Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="89" x:FullColumns="1" x:FullRows="1"><Column ss:Index="2" ss:StyleID="txtCol"/>
+<Column ss:Index="4" ss:StyleID="txtCol"/>
+<Column ss:Index="6" ss:StyleID="shortDate"/>
+<Column ss:Index="7" ss:StyleID="txtCol"/>
+<Column ss:Index="8" ss:StyleID="txtCol"/>
+<Column ss:Index="10" ss:StyleID="txtCol"/>
+<Column ss:Index="11" ss:StyleID="txtCol"/>
+<Column ss:Index="14" ss:StyleID="txtCol"/>
+<Column ss:Index="15" ss:StyleID="txtCol"/>
+<Column ss:Index="16" ss:StyleID="txtCol"/>
+<Column ss:Index="17" ss:StyleID="txtCol"/>
+<Column ss:Index="18" ss:StyleID="txtCol"/>
+<Column ss:Index="19" ss:StyleID="txtCol"/>
+<Column ss:Index="20" ss:StyleID="txtCol"/>
+<Column ss:Index="22" ss:StyleID="txtCol"/>
+<Column ss:Index="23" ss:StyleID="txtCol"/>
+<Column ss:Index="24" ss:StyleID="txtCol"/>
+<Column ss:Index="25" ss:StyleID="txtCol"/>
+<Column ss:Index="26" ss:StyleID="txtCol"/>
+<Row>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número activo</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Explicación</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Importe                     </Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo doc</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número documento</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Fecha libro mayor</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd rtn</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd contzn</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número línea</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Explicación</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cd fact</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Código DOI</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Unidades</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">UM</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Cuenta</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo LM</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tp LM aux</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Libro mayor auxiliar</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Compañía documento</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Compañía</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número batch</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Tipo batch</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Extensión línea</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número unidad</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Número serie</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Orden de compra</Data></Cell>
+<Cell ss:StyleID="boldTxt"><Data ss:Type="String">Importe de monedas</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400264</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP BUCARASICA OCT 25 LOCAL</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">591781.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200614</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">MALDONADO  ANGELMIRO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">591781.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00009343</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103488</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400254</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP CACOTA OCT 25 LOCAL</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">597903.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200615</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">FLOREZ GRANADOS LUIS GUSTAVO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">597903.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00010348</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103489</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400247</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP LA PLAYA OCT 25 LOCAL</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">789039.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200618</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">GARCIA CELIS ALVARO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">789039.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00009344</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103493</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400239</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP PAMPLONITA OCT 25 LOCAL</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">789039.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200620</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">ROZO PEÑARANDA MARIA DICILIA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">789039.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00010274</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103495</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400248</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP SAN CAYETANO OCT 25 LOC</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">591781.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200621</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">PRADILLA GARCIA ELVIA MARLENE</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">591781.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00006290</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103496</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">400235</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String"> AFR OP SILOS OCT 25 LOCAL</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">591776.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200626</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">SUAREZ PARRA LUIS ERNESTO</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">591776.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00003231</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103503</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="1"><Data ss:Type="Number">433413</Data></Cell>
+<Cell ss:Index="2"><Data ss:Type="String">AFR OP GRAMALOTE OCT 2025 LOCA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">322779.00</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">200629</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-02</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">1.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">GASES DEL ORIENTE SA ESP</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">322779.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">        0534.230615.01550360</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String">A</Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String">00025587</Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1923106</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="24"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="25"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103506</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">60279.46</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">161.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">232074.91</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">163.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">8396.86</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">165.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">24252.50</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">167.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">80018.54</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">169.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">45504.48</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">171.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">116637.56</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">173.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">11533.04</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">175.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">16026.93</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">177.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">24580.14</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">179.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">116637.56</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">181.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">18237.66</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">183.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">185.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">331300.25</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">187.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">270552.88</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">189.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">109717.96</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">191.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">66647.24</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">193.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">232074.91</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">195.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">6297.64</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">197.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">6063.12</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">199.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">160037.08</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">201.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">11533.04</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">203.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">24580.14</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">205.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">233275.12</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">207.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">18237.66</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">209.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">211.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">115951.23</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">213.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">164576.95</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">215.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">65220.55</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">217.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">66647.24</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">219.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">80018.54</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">221.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">11533.04</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">223.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">225.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">331300.25</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">227.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">154601.65</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">229.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">109717.96</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">231.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">20992.16</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">233.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">6063.12</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">235.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">56651.25</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">237.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">167615.41</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">239.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">24580.14</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">241.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">233275.12</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">243.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">245.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">305145.12</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">247.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">231902.47</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">249.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">109717.96</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">251.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">66647.24</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">253.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">5248.04</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">255.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">8084.16</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">257.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">160037.08</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">259.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">5766.52</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">261.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">263.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">174369.46</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">265.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">231902.47</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">267.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">109717.96</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">269.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">66647.24</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">271.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">31488.24</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">273.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">20210.41</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">275.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">141921.28</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">277.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">25190.59</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">279.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">2806.23</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">281.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">160037.08</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">283.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">11533.04</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">285.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">24580.14</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">287.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">77758.37</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">289.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">31382.47</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">291.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">36475.32</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">293.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">295.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">111550.47</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">297.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">12595.29</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">299.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">12126.25</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">301.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">45504.48</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">303.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">194395.94</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">305.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">17299.56</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">307.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">32053.86</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">309.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">49160.28</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">311.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">38879.18</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">313.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">36475.32</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">315.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">10989.27</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">317.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">CONS. TECNICA/SERV. INGENIERIA</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">331300.25</Data></Cell>
+<Cell ss:Index="4"><Data ss:Type="String">OV</Data></Cell>
+<Cell ss:Index="5"><Data ss:Type="Number">201981</Data></Cell>
+<Cell ss:Index="6"><Data ss:Type="DateTime">2025-10-23</Data></Cell>
+<Cell ss:Index="7"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="8"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="9"><Data ss:Type="Number">319.0</Data></Cell>
+<Cell ss:Index="10"><Data ss:Type="String">UNION ELECTRICA SA</Data></Cell>
+<Cell ss:Index="11"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">1.00</Data></Cell>
+<Cell ss:Index="14"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="15"><Data ss:Type="String">    05347200.754001.01550101</Data></Cell>
+<Cell ss:Index="16"><Data ss:Type="String">AA</Data></Cell>
+<Cell ss:Index="17"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="18"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="19"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="20"><Data ss:Type="String">00534</Data></Cell>
+<Cell ss:Index="21"><Data ss:Type="Number">1931336</Data></Cell>
+<Cell ss:Index="22"><Data ss:Type="String">O</Data></Cell>
+<Cell ss:Index="23"><Data ss:Type="String"> </Data></Cell>
+<Cell ss:Index="26"><Data ss:Type="String">00103881</Data></Cell>
+</Row>
+<Row>
+<Cell ss:Index="2"><Data ss:Type="String">Total</Data></Cell>
+<Cell ss:Index="3"><Data ss:Type="Number">11104173.95</Data></Cell>
+<Cell ss:Index="13"><Data ss:Type="Number">4274178.00</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

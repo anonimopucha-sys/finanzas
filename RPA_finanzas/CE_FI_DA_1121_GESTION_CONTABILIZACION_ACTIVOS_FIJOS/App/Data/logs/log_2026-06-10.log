@@ -1,0 +1,256 @@
+2026-06-10 16:33:53,928 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 16:33:53,928 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 16:34:04,702 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 16:34:06,270 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 16:35:02,965 - CE1121 - WARNING - reintentos_boton intento 1/3 fallido (WebDriverException): Message: 
+
+2026-06-10 16:35:04,621 - CE1121 - WARNING - reintentos_boton intento 1/3 fallido (WebDriverException): Message: 
+
+2026-06-10 16:35:45,022 - CE1121 - WARNING - reintentos_boton intento 2/3 fallido (WebDriverException): Message: 
+
+2026-06-10 16:36:25,579 - CE1121 - WARNING - reintentos_boton intento 3/3 fallido (WebDriverException): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:36:35,579 - CE1121 - ERROR - reintentos_boton: se agotaron todos los intentos sin éxito.
+2026-06-10 16:36:35,580 - CE1121 - ERROR - No se pudo cargar la búsqueda para compañía 00534. Se cancela la descarga.
+2026-06-10 16:36:35,581 - CE1121 - WARNING - No se encontraron archivos para #compañía 00534. Intento 1/3.
+2026-06-10 16:36:35,581 - CE1121 - INFO - Reintentando descarga para #compañía 00534...
+2026-06-10 16:37:07,331 - CE1121 - ERROR - Error escribiendo texto en JDE (User): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:37:17,578 - CE1121 - ERROR - Error escribiendo texto en JDE (Password): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:37:27,892 - CE1121 - ERROR - Timeout: No se encontró o no fue clickeable el elemento '//*[@id="mainLoginTable"]/tbody/tr[4]/td/input' en 10 segundos.
+2026-06-10 16:37:27,892 - CE1121 - ERROR - Error en descarga del informe de compañía 00534: Message: Timeout haciendo click en '//*[@id="mainLoginTable"]/tbody/tr[4]/td/input'
+Screenshot: available via screen
+
+2026-06-10 16:37:27,893 - CE1121 - INFO - Reintentando para compañía 00534... (Intento 2/3)
+2026-06-10 16:37:44,253 - CE1121 - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-06-10 16:37:48,907 - CE1121 - ERROR - Error escribiendo texto en JDE (User): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:37:59,175 - CE1121 - ERROR - Error escribiendo texto en JDE (Password): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:38:09,439 - CE1121 - ERROR - Timeout: No se encontró o no fue clickeable el elemento '//*[@id="mainLoginTable"]/tbody/tr[4]/td/input' en 10 segundos.
+2026-06-10 16:38:09,439 - CE1121 - ERROR - Error en descarga del informe de compañía 00534: Message: Timeout haciendo click en '//*[@id="mainLoginTable"]/tbody/tr[4]/td/input'
+Screenshot: available via screen
+
+2026-06-10 16:38:09,440 - CE1121 - ERROR - Se alcanzó el máximo de intentos (3) para compañía 00534. No se pudo completar la descarga.
+2026-06-10 16:38:22,486 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 16:38:23,887 - CE1121 - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-06-10 16:39:11,195 - CE1121 - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-06-10 16:39:15,931 - CE1121 - ERROR - Faltan informes en 'C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-05pm'. Algunos archivos no se descargaron correctamente. El proceso se detuvo para evitar generar un Excel incompleto.
+2026-06-10 16:40:35,162 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 16:40:35,162 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 16:40:35,163 - CE1121 - INFO - Descarga completada para compañía 00533. Archivos encontrados.
+2026-06-10 16:40:45,165 - CE1121 - INFO - Descarga completada para compañía 00598. Archivos encontrados.
+2026-06-10 16:40:47,468 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 16:41:46,323 - CE1121 - WARNING - reintentos_boton intento 1/3 fallido (TimeoutException): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x63fa13+106c3]
+	chromedriver!GetHandleVerifier [0x63fa54+10704]
+	chromedriver!(No symbol) [0x43a830]
+	chromedriver!(No symbol) [0x483cdb]
+	chromedriver!(No symbol) [0x483efb]
+	chromedriver!(No symbol) [0x4c5a92]
+	chromedriver!(No symbol) [0x4a62d4]
+	chromedriver!(No symbol) [0x4c32fa]
+	chromedriver!(No symbol) [0x4a6026]
+	chromedriver!(No symbol) [0x479289]
+	chromedriver!(No symbol) [0x47a054]
+	chromedriver!GetHandleVerifier [0x8c44fa+2951aa]
+	chromedriver!GetHandleVerifier [0x8bfb56+290806]
+	chromedriver!GetHandleVerifier [0x8dff8b+2b0c3b]
+	chromedriver!GetHandleVerifier [0x659ed6+2ab86]
+	chromedriver!GetHandleVerifier [0x66124d+31efd]
+	chromedriver!GetHandleVerifier [0x6483d8+19088]
+	chromedriver!GetHandleVerifier [0x648585+19235]
+	chromedriver!GetHandleVerifier [0x63125f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x759f5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x76f6ce3b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x76f6cdc1+231]
+
+2026-06-10 16:43:10,161 - CE1121 - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-06-10 16:43:18,516 - CE1121 - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-06-10 16:43:23,651 - CE1121 - ERROR - Error inesperado al guardar el checkpoint en 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json': unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2026-06-10 16:43:23,652 - CE1121 - ERROR - No se pudo guardar el checkpoint tras el Paso 2.
+2026-06-10 16:43:23,652 - CE1121 - INFO - Paso 2 completado: informes descargados.
+2026-06-10 16:43:23,653 - CE1121 - INFO - ─── PASO 3: Unificación y filtros simples ───
+2026-06-10 16:43:31,794 - CE1121 - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-05pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_05pm.xlsx
+2026-06-10 16:43:34,203 - CE1121 - INFO - Archivo de reglas guardado en 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\reglas.json'.
+2026-06-10 16:43:38,219 - CE1121 - INFO - Excel actualizado: 7506 filas con 'Responsable' en 'C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-05pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_05pm.xlsx'.
+2026-06-10 16:43:38,220 - CE1121 - ERROR - Error inesperado al guardar el checkpoint en 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json': unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2026-06-10 16:43:38,221 - CE1121 - ERROR - No se pudo guardar el checkpoint tras el Paso 3.
+2026-06-10 16:43:38,221 - CE1121 - INFO - Paso 3 completado: Excel unificado y filtros simples aplicados.
+2026-06-10 16:43:38,221 - CE1121 - WARNING - El Excel de referencia 'C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-04pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_04pm.xlsx' ya no existe en disco. Se omite.
+2026-06-10 16:43:38,253 - CE1121 - INFO - ─── PASO 4: Filtros complejos ───
+2026-06-10 16:43:40,358 - CE1121 - INFO - Se harán 1 búsqueda(s) sobre registros PU, JE y A5
+2026-06-10 16:43:47,362 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 16:43:50,534 - CE1121 - INFO - Se harán 0 búsqueda(s) sobre registros CT
+2026-06-10 16:44:31,695 - CE1121 - ERROR - Timeout: El elemento con identificador '//*[@id="C0_52"]' no es visible o clickeable en 10 segundos.
+2026-06-10 16:45:44,978 - CE1121 - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-05pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_05pm.xlsx
+2026-06-10 16:45:55,404 - CE1121 - INFO - Tabla dinámica creada con bordes en hoja 'TablaDinamica' de 'C:\CE_FI_DA_1121_Archivos_de_Salida\Mayo\25-05pm\Transacciones pendientes por contabilizar en el filtro_25-Mayo-2026_05pm.xlsx'.
+2026-06-10 16:45:55,406 - CE1121 - ERROR - Error inesperado al guardar el checkpoint en 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json': unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2026-06-10 16:45:55,406 - CE1121 - ERROR - No se pudo guardar el checkpoint final. La próxima ejecución no tendrá Excel de referencia.
+2026-06-10 16:45:55,407 - CE1121 - INFO - Paso 4 completado: filtros complejos y tabla dinámica.
+2026-06-10 16:47:10,257 - CE1121 - INFO - Checkpoint vaciado: C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-06-10 16:47:10,257 - CE1121 - INFO - Proceso reiniciado completamente.
+2026-06-10 16:47:24,309 - CE1121 - INFO - Checkpoint vaciado: C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-06-10 16:47:24,309 - CE1121 - INFO - Proceso reiniciado completamente.
+2026-06-10 16:47:29,118 - CE1121 - INFO - Checkpoint vaciado conservando excel_referencia: C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-06-10 16:47:29,118 - CE1121 - INFO - Proceso reiniciado conservando excel_referencia.
+2026-06-10 17:09:57,923 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 17:09:57,924 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 17:10:11,784 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:10:11,785 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:10:20,809 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:10:20,810 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00533: No se pudo iniciar sesión en JDE para la compañía 00533.
+2026-06-10 17:10:20,810 - CE1121 - INFO - Reintentando para compañía 00533... (Intento 1/3)
+2026-06-10 17:10:20,881 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:10:20,882 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00534: No se pudo iniciar sesión en JDE para la compañía 00534.
+2026-06-10 17:10:20,882 - CE1121 - INFO - Reintentando para compañía 00534... (Intento 1/3)
+2026-06-10 17:12:07,841 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 17:12:07,841 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 17:12:15,022 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:12:20,398 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:12:29,866 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login. Reintentando...
+2026-06-10 17:12:35,205 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login. Reintentando...
+2026-06-10 17:12:44,198 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login. Reintentando...
+2026-06-10 17:12:44,198 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:12:44,198 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00533: No se pudo iniciar sesión en JDE para la compañía 00533.
+2026-06-10 17:12:44,198 - CE1121 - INFO - Reintentando para compañía 00533... (Intento 1/3)
+2026-06-10 17:12:49,498 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login. Reintentando...
+2026-06-10 17:12:49,498 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:12:49,499 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00534: No se pudo iniciar sesión en JDE para la compañía 00534.
+2026-06-10 17:12:49,499 - CE1121 - INFO - Reintentando para compañía 00534... (Intento 1/3)
+2026-06-10 17:19:39,837 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 17:19:39,838 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 17:19:47,352 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:19:52,081 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:20:51,895 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:20:56,715 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:34:33,596 - CE1121 - INFO - Checkpoint cargado desde 'C:\RPA_finanzas\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json'. Paso actual: descargar_informes
+2026-06-10 17:34:33,596 - CE1121 - INFO - ─── PASO 2: Descarga de informes ───
+2026-06-10 17:34:41,363 - CE1121 - INFO - Driver Selenium creado correctamente con webdriver-manager
+2026-06-10 17:35:45,934 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:36:50,339 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:36:50,339 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:36:50,340 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00533: No se pudo iniciar sesión en JDE para la compañía 00533.
+2026-06-10 17:36:50,340 - CE1121 - INFO - Reintentando para compañía 00533... (Intento 1/3)
+2026-06-10 17:38:04,524 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:39:08,793 - CE1121 - WARNING - No se detectó el iframe de JDE tras el login en 60 segundos. URL actual: https://epm-vws20a.corp.epm.com.co/jde/E1Menu.maf
+2026-06-10 17:39:08,793 - CE1121 - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-06-10 17:39:08,793 - CE1121 - WARNING - Error transitorio en descarga del informe de compañía 00533: No se pudo iniciar sesión en JDE para la compañía 00533.
+2026-06-10 17:39:08,793 - CE1121 - INFO - Reintentando para compañía 00533... (Intento 2/3)

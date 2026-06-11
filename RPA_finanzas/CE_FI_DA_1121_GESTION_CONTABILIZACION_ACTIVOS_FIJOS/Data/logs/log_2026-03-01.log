@@ -1,0 +1,22 @@
+2026-03-01 11:31:21,530 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-03-01 11:31:21,532 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-03-01 11:31:22,441 - root - INFO - Conexión exitosa a Internet. Latencia: 908.62 ms.
+2026-03-01 11:31:22,441 - root - ERROR - Advertencia: La latencia es demasiado alta (908.62 ms). La conexión puede no ser confiable.
+2026-03-01 11:31:22,442 - root - ERROR - No se cumplen los requisitos minimos
+2026-03-01 11:32:00,211 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-03-01 11:32:00,212 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-03-01 11:32:00,585 - root - INFO - Conexión exitosa a Internet. Latencia: 372.87 ms.
+2026-03-01 11:33:02,301 - root - WARNING - no se encontraron registros
+2026-03-01 11:33:05,923 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-03-01 11:34:50,439 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-03-01 11:34:52,907 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-03-01 11:35:02,471 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-03-01 11:35:04,165 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-03-01 11:35:10,105 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00598. Intentando de nuevo.
+2026-03-01 11:35:10,106 - root - INFO - Reintentando descarga para #compañía 00598... (Intento 1/3)
+2026-03-01 11:35:51,313 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-03-01 11:37:47,930 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-03-01 11:37:55,431 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Marzo\1-11am\Transacciones pendientes por contabilizar en el filtro_1-Marzo-2026_11am.xlsx
+2026-03-01 11:37:56,433 - root - INFO - Se guardo el archivo correctamente
+2026-03-01 11:37:57,792 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-03-01 11:47:36,152 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Marzo\1-11am\Transacciones pendientes por contabilizar en el filtro_1-Marzo-2026_11am.xlsx

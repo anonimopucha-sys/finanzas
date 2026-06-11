@@ -1,0 +1,231 @@
+2026-01-27 08:51:18,906 - root - INFO - Intentando abrir archivo en: C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\config.py
+2026-01-27 08:51:26,931 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-01-27 08:51:26,950 - root - INFO - El archivo de entrada 'C:\CCE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-01-27 08:51:27,364 - root - INFO - Conexión exitosa a Internet. Latencia: 414.64 ms.
+2026-01-27 08:51:40,933 - root - WARNING - error ucurrido en el login: intento1
+2026-01-27 08:51:51,237 - root - WARNING - error ucurrido en el login: intento2
+2026-01-27 08:51:51,237 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-27 08:51:52,243 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:52:02,409 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:52:03,417 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:52:13,563 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-27 08:52:23,611 - root - ERROR - error al ignorar 2A en el documento: Message: 
+
+2026-01-27 08:52:33,756 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:52:43,896 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:52:46,218 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-01-27 08:52:59,084 - root - WARNING - error ucurrido en el login: intento1
+2026-01-27 08:53:01,052 - root - WARNING - error ucurrido en el login: intento1
+2026-01-27 08:53:03,102 - root - WARNING - error ucurrido en el login: intento1
+2026-01-27 08:53:09,487 - root - WARNING - error ucurrido en el login: intento2
+2026-01-27 08:53:09,487 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-27 08:53:10,496 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:11,443 - root - WARNING - error ucurrido en el login: intento2
+2026-01-27 08:53:11,443 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-27 08:53:12,452 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:13,569 - root - WARNING - error ucurrido en el login: intento2
+2026-01-27 08:53:13,569 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-01-27 08:53:14,576 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:20,640 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:22,594 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:23,649 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:24,708 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:25,601 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:27,717 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=144.0.7559.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff61f435715
+	0x7ff61f435770
+	0x7ff61f1e108d
+	0x7ff61f23c3be
+	0x7ff61f23c6cc
+	0x7ff61f28d2f7
+	0x7ff61f289e45
+	0x7ff61f22cc28
+	0x7ff61f22db33
+	0x7ff61f71e9f0
+	0x7ff61f718ded
+	0x7ff61f73969a
+	0x7ff61f4511e5
+	0x7ff61f4599cc
+	0x7ff61f43ebf4
+	0x7ff61f43eda6
+	0x7ff61f424e87
+	0x7ffd72ede8d7
+	0x7ffd74128d9c
+
+2026-01-27 08:53:33,797 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:35,756 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:37,862 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-01-27 08:53:43,844 - root - ERROR - Error en descarga del informe de #compania 00533: Message: 
+
+2026-01-27 08:53:43,844 - root - INFO - Reintentando para #compañía 00533... (Intento 1/3)
+2026-01-27 08:53:45,804 - root - ERROR - Error en descarga del informe de #compania 00534: Message: 
+
+2026-01-27 08:53:45,804 - root - INFO - Reintentando para #compañía 00534... (Intento 1/3)
+2026-01-27 08:53:47,911 - root - ERROR - Error en descarga del informe de #compania 00598: Message: 
+
+2026-01-27 08:53:47,911 - root - INFO - Reintentando para #compañía 00598... (Intento 1/3)
+2026-01-27 08:53:58,218 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto

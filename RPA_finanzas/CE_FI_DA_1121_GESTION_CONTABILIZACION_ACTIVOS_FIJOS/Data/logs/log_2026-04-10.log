@@ -1,0 +1,234 @@
+2026-04-10 15:37:32,338 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-10 15:37:32,339 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-10 15:37:32,887 - root - INFO - Conexión exitosa a Internet. Latencia: 548.4 ms.
+2026-04-10 15:37:41,886 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-10 15:37:50,822 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-10 15:37:51,835 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:38:02,066 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:38:03,079 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:38:13,343 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-10 15:38:23,410 - root - ERROR - error al ignorar 2A en el documento: Message: 
+
+2026-04-10 15:38:33,624 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:38:43,834 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:38:47,705 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-10 15:39:06,169 - root - WARNING - error ucurrido en el login: intento2
+2026-04-10 15:39:06,169 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-10 15:39:07,185 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:07,612 - root - WARNING - error ucurrido en el login: intento2
+2026-04-10 15:39:07,612 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-10 15:39:08,627 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:08,934 - root - WARNING - error ucurrido en el login: intento2
+2026-04-10 15:39:08,934 - root - ERROR - Máximo de intentos alcanzado. No se pudo iniciar sesión.
+2026-04-10 15:39:09,947 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:17,426 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:18,925 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:20,212 - root - ERROR - Timeout: El elemento con identificador '//*[@id="tab1"]' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:20,442 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:21,941 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:23,242 - root - ERROR - Error al cambiar a uno de los iframes en la ruta: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="e1menuAppIframe"]"}
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7a7a529c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff7a777a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7a74ddb2d]
+	chromedriver!(No symbol) [0x7ff7a7536b9e]
+	chromedriver!(No symbol) [0x7ff7a7536eac]
+	chromedriver!(No symbol) [0x7ff7a7586fe7]
+	chromedriver!(No symbol) [0x7ff7a7583b9b]
+	chromedriver!(No symbol) [0x7ff7a7529298]
+	chromedriver!(No symbol) [0x7ff7a752a183]
+	chromedriver!GetHandleVerifier [0x7ff7a7a7de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff7a7a78588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7a7a99d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7a7796785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7a779facc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff7a7783634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7a77837e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff7a7767e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffcf236e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffcf322c53c+2c]
+
+2026-04-10 15:39:30,705 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:32,213 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:33,510 - root - ERROR - Timeout: El elemento con identificador '//*[@id="pageContainer"]/table/tbody[6]/tr/td/div[2]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td[2]/div/table/tr[2]/td/span' no es visible o clickeable en 10 segundos.
+2026-04-10 15:39:40,766 - root - ERROR - Error en descarga del informe de #compania 00533: Message: 
+
+2026-04-10 15:39:40,767 - root - INFO - Reintentando para #compañía 00533... (Intento 1/3)
+2026-04-10 15:39:42,284 - root - ERROR - Error en descarga del informe de #compania 00534: Message: 
+
+2026-04-10 15:39:42,285 - root - INFO - Reintentando para #compañía 00534... (Intento 1/3)
+2026-04-10 15:39:43,572 - root - ERROR - Error en descarga del informe de #compania 00598: Message: 
+
+2026-04-10 15:39:43,573 - root - INFO - Reintentando para #compañía 00598... (Intento 1/3)
+2026-04-10 15:39:55,460 - root - ERROR - Error: no se ha encontrado los informes, archivo final incompleto
+2026-04-10 16:04:18,337 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-10 16:04:18,338 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-10 16:04:18,923 - root - INFO - Conexión exitosa a Internet. Latencia: 584.46 ms.
+2026-04-10 16:04:26,547 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-10 16:06:04,809 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-10 16:08:08,708 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-10 16:08:09,513 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-10 16:08:31,215 - root - WARNING - Error en esperar registros para la compañia 00533
+2026-04-10 16:08:31,216 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-04-10 16:08:31,216 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 1/3)
+2026-04-10 16:09:59,287 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-10 16:10:11,571 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-10 16:10:24,073 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\10-04pm\Transacciones pendientes por contabilizar en el filtro_10-Abril-2026_04pm.xlsx
+2026-04-10 16:10:26,008 - root - INFO - Se guardo el archivo correctamente
+2026-04-10 16:10:29,826 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-10 16:35:48,185 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\10-04pm\Transacciones pendientes por contabilizar en el filtro_10-Abril-2026_04pm.xlsx

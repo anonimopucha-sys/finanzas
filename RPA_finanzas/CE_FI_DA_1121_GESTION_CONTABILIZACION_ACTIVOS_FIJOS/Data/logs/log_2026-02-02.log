@@ -1,0 +1,38 @@
+2026-02-02 10:21:44,022 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-02 10:21:44,024 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' está disponible.
+2026-02-02 10:21:44,532 - root - INFO - Conexión exitosa a Internet. Latencia: 507.77 ms.
+2026-02-02 10:23:22,221 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-02-02 10:25:42,904 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-02-02 10:25:48,833 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-02-02 10:25:49,350 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-02-02 10:26:01,057 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-02-02 10:26:01,144 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-02-02 10:26:06,490 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\2-10am\Transacciones pendientes por contabilizar en el filtro_2-Febrero-2026_10am.xlsx
+2026-02-02 10:26:07,234 - root - INFO - Se guardo el archivo correctamente
+2026-02-02 10:26:09,130 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-02-02 10:26:11,238 - root - ERROR - Error al ejecutar el paso 'filtros_complejos': Worksheet named 'UsuariosAD_21072025' not found
+2026-02-02 14:17:23,141 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-02 14:17:23,141 - root - ERROR - Error: El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' no se encuentra o no es accesible.
+2026-02-02 14:17:23,142 - root - ERROR - No se cumplen los requisitos minimos
+2026-02-02 14:19:39,545 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-02 14:19:39,545 - root - ERROR - Error: El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' no se encuentra o no es accesible.
+2026-02-02 14:19:39,545 - root - ERROR - No se cumplen los requisitos minimos
+2026-02-02 14:19:42,402 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-02 14:19:42,403 - root - ERROR - Error: El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relación Cuentas.Dependencias.xlsx' no se encuentra o no es accesible.
+2026-02-02 14:19:42,403 - root - ERROR - No se cumplen los requisitos minimos
+2026-02-02 14:22:07,560 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-02-02 14:22:07,561 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\RelacionCuentas.Dependencias.xlsx' está disponible.
+2026-02-02 14:22:07,947 - root - INFO - Conexión exitosa a Internet. Latencia: 386.22 ms.
+2026-02-02 14:22:56,041 - root - WARNING - no se encontraron registros
+2026-02-02 14:22:59,246 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-02-02 14:25:08,200 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-02-02 14:25:10,266 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-02-02 14:25:23,874 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-02-02 14:25:24,034 - root - WARNING - No se pudo encontrar o esperar a que el elemento GOTOLAST0_1 sea visible.
+2026-02-02 14:25:24,818 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-02-02 14:25:35,667 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-02-02 14:25:35,682 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-02-02 14:25:40,349 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\2-02pm\Transacciones pendientes por contabilizar en el filtro_2-Febrero-2026_02pm.xlsx
+2026-02-02 14:25:41,031 - root - INFO - Se guardo el archivo correctamente
+2026-02-02 14:25:42,056 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-02-02 14:25:44,811 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Febrero\2-02pm\Transacciones pendientes por contabilizar en el filtro_2-Febrero-2026_02pm.xlsx

@@ -1,0 +1,60 @@
+2026-04-08 16:14:46,964 - root - INFO - Intentando abrir archivo en: C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\config.py
+2026-04-08 16:14:58,493 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-08 16:14:58,494 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-08 16:14:59,169 - root - INFO - Conexión exitosa a Internet. Latencia: 674.63 ms.
+2026-04-08 16:15:05,574 - root - ERROR - Error al iniciar el driver: Message: session not created: This version of ChromeDriver only supports Chrome version 144
+Current browser version is 146.0.7680.153; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79e655715
+	0x7ff79e655770
+	0x7ff79e40108d
+	0x7ff79e4495dd
+	0x7ff79e4418e4
+	0x7ff79e43d0e9
+	0x7ff79e494171
+	0x7ff79e4939d6
+	0x7ff79e44cc28
+	0x7ff79e44db33
+	0x7ff79e93e9f0
+	0x7ff79e938ded
+	0x7ff79e95969a
+	0x7ff79e6711e5
+	0x7ff79e6799cc
+	0x7ff79e65ebf4
+	0x7ff79e65eda6
+	0x7ff79e644e87
+	0x7fffefb4e8d7
+	0x7ffff0dac53c
+
+2026-04-08 16:15:05,575 - root - ERROR - Error al ejecutar el paso 'inicio': cannot unpack non-iterable NoneType object
+2026-04-08 16:15:54,852 - root - INFO - Intentando abrir archivo en: C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\App\config.py
+2026-04-08 16:15:59,261 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-08 16:15:59,261 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-08 16:15:59,740 - root - INFO - Conexión exitosa a Internet. Latencia: 479.21 ms.
+2026-04-08 16:16:03,989 - root - ERROR - Error al iniciar el driver: Message: session not created: This version of ChromeDriver only supports Chrome version 144
+Current browser version is 146.0.7680.153; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff79e655715
+	0x7ff79e655770
+	0x7ff79e40108d
+	0x7ff79e4495dd
+	0x7ff79e4418e4
+	0x7ff79e43d0e9
+	0x7ff79e494171
+	0x7ff79e4939d6
+	0x7ff79e44cc28
+	0x7ff79e44db33
+	0x7ff79e93e9f0
+	0x7ff79e938ded
+	0x7ff79e95969a
+	0x7ff79e6711e5
+	0x7ff79e6799cc
+	0x7ff79e65ebf4
+	0x7ff79e65eda6
+	0x7ff79e644e87
+	0x7fffefb4e8d7
+	0x7ffff0dac53c
+
+2026-04-08 16:16:03,989 - root - ERROR - Error al ejecutar el paso 'inicio': cannot unpack non-iterable NoneType object

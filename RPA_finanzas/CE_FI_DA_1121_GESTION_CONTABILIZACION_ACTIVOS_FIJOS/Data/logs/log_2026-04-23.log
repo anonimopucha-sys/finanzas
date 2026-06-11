@@ -1,0 +1,32 @@
+2026-04-23 07:33:32,978 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-23 07:33:32,979 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-23 07:33:33,401 - root - INFO - Conexión exitosa a Internet. Latencia: 421.61 ms.
+2026-04-23 07:33:42,231 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-23 07:35:27,683 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-23 07:37:10,521 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-23 07:37:10,950 - root - WARNING - posible falla en espera de elementos para la descarga del archivo
+2026-04-23 07:37:13,072 - root - ERROR - No se encontró la palabra 'total' en el último tr.
+2026-04-23 07:37:24,196 - root - ERROR - Timeout: El elemento con identificador '//*[@id="WebMenuBar"]/tbody/tr/td[1]/table/tbody/tr[2]/td' no es visible o clickeable en 10 segundos.
+2026-04-23 07:37:29,464 - root - WARNING - No se encontraron archivos en la carpeta para #compañía 00533. Intentando de nuevo.
+2026-04-23 07:37:29,464 - root - INFO - Reintentando descarga para #compañía 00533... (Intento 1/3)
+2026-04-23 07:37:55,454 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-23 07:38:45,241 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-23 07:39:02,854 - root - INFO - archivo guardado correctamente en: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\23-07am\Transacciones pendientes por contabilizar en el filtro_23-Abril-2026_07am.xlsx
+2026-04-23 07:39:05,992 - root - INFO - Se guardo el archivo correctamente
+2026-04-23 07:39:12,599 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-23 07:39:15,432 - root - ERROR - Error al ejecutar el paso 'unificar_excel': single positional indexer is out-of-bounds
+2026-04-23 07:48:15,147 - root - INFO - Estado y variables cargados desde C:\RPA\CE_FI_DA_1121_GESTION_CONTABILIZACION_ACTIVOS_FIJOS\Data\json\checkpoint.json
+2026-04-23 07:48:15,147 - root - INFO - El archivo de entrada 'C:\CE_FI_DA_1121_Archivos_de_Entrada\Relacion.Cuentas.Dependencias.xlsx' está disponible.
+2026-04-23 07:48:15,585 - root - INFO - Conexión exitosa a Internet. Latencia: 438.23 ms.
+2026-04-23 07:48:23,986 - root - INFO - No hay sesión activa. Realizando login automático.
+2026-04-23 07:49:11,001 - root - INFO - Pantalla de 2A sin registros.
+2026-04-23 07:49:21,359 - root - ERROR - Timeout: El elemento con identificador '//*[@id="userSessionDropdownArrow"]' no es visible o clickeable en 10 segundos.
+2026-04-23 07:49:31,804 - root - ERROR - Timeout: El elemento con identificador '//*[@id="e1LogoutLink"]' no es visible o clickeable en 10 segundos.
+2026-04-23 07:49:37,484 - root - INFO - Paso 1 completado: verificación de 2A.
+2026-04-23 07:49:37,492 - root - INFO - Descarga completada para #compañía 00533. Archivos encontrados.
+2026-04-23 07:49:39,494 - root - INFO - Descarga completada para #compañía 00534. Archivos encontrados.
+2026-04-23 07:49:41,494 - root - INFO - Descarga completada para #compañía 00598. Archivos encontrados.
+2026-04-23 07:49:44,535 - root - INFO - El archivo Transacciones pendientes por contabilizar en el filtro_23-Abril-2026_07am.xlsx ya existe. No se guardará el archivo para evitar sobrescribir.
+2026-04-23 07:49:47,834 - root - INFO - Se guardo el archivo correctamente
+2026-04-23 07:49:54,033 - root - INFO - El archivo ha sido actualizado en la hoja con los cambios realizados en 'Responsable'.
+2026-04-23 08:00:48,541 - root - INFO - archivo guardado correctamente, por favor revisar la ruta: C:\CE_FI_DA_1121_Archivos_de_Salida\Abril\23-07am\Transacciones pendientes por contabilizar en el filtro_23-Abril-2026_07am.xlsx
