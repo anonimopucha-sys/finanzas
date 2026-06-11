@@ -99,16 +99,40 @@ def guardar_excel(excel_actual,df_new):
     print(f"Archivo guardado en: {excel_actual}")
     
 def usar_excel_referencia(excel_refencia, excel_actual):
-    df_ref = pd.read_excel(excel_refencia)
-    df_new = pd.read_excel(excel_actual).copy()
-    
-    actualizar_pu_je(df_ref, df_new)
-    actualizar_ct(df_ref,df_new)
-    actualizar_pv_ov(df_ref,df_new)
+    referencia_path = Path(excel_refencia)
+    actual_path = Path(excel_actual)
 
-    guardar_excel(excel_actual, df_new)
-    print(f"se actualizo correctamente el excel usando el excel de referencia: {excel_refencia}")
-    logger.info(f"se actualizo correctamente el excel usando el excel de referencia: {excel_refencia}")
+    if not referencia_path.exists():
+        logger.warning(
+            "El Excel de referencia '%s' ya no existe. Se omite la actualización con referencia.",
+            referencia_path,
+        )
+        return
+
+    if not actual_path.exists():
+        logger.error(
+            "El Excel de destino '%s' no existe. No se puede aplicar la referencia.",
+            actual_path,
+        )
+        return
+
+    try:
+        df_ref = pd.read_excel(referencia_path)
+        df_new = pd.read_excel(actual_path).copy()
+    except FileNotFoundError as e:
+        logger.error("Error leyendo archivos de Excel para referencia: %s", e)
+        return
+    except Exception as e:
+        logger.error("Error inesperado al leer los archivos de referencia: %s", e)
+        return
+
+    actualizar_pu_je(df_ref, df_new)
+    actualizar_ct(df_ref, df_new)
+    actualizar_pv_ov(df_ref, df_new)
+
+    guardar_excel(actual_path, df_new)
+    print(f"se actualizo correctamente el excel usando el excel de referencia: {referencia_path}")
+    logger.info(f"se actualizo correctamente el excel usando el excel de referencia: {referencia_path}")
     return
 
 def eliminar_informes(ruta_de_archivos, numeros_companias):

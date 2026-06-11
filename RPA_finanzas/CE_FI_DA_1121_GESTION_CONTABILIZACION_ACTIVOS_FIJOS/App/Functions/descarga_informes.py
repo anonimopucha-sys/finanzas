@@ -513,10 +513,50 @@ def verificar_2A(driver, timeout=60):
         logger.error(f"error al ignorar 2A en el documento: {e}")
         return False
 
-def cerrar_sesion(driver: Any) -> None:
-    # Cerrar sesion de JDEdwards
-    hacer_click_elementos(driver, By.XPATH, '//*[@id="userSessionDropdownArrow"]')
-    hacer_click_elementos(driver, By.XPATH, '//*[@id="e1LogoutLink"]')
+def cerrar_sesion(driver: Any) -> bool:
+    # Cerrar sesión de JDEdwards
+    if not sesion_valida(driver):
+        logger.warning("Sesión inválida al cerrar sesión. Se omite el logout.")
+        return False
+
+    try:
+        driver.switch_to.default_content()
+        wait = WebDriverWait(driver, 30)
+
+        try:
+            elemento_sesion = wait.until(
+                EC.element_to_be_clickable((By.XPATH, '//*[@id="userSessionDropdownArrow"]'))
+            )
+        except TimeoutException:
+            logger.warning(
+                "No se encontró el botón de sesión en el contexto principal; intentando dentro del iframe e1menuAppIframe."
+            )
+            try:
+                driver.switch_to.frame(driver.find_element(By.XPATH, '//*[@id="e1menuAppIframe"]'))
+                elemento_sesion = wait.until(
+                    EC.element_to_be_clickable((By.XPATH, '//*[@id="userSessionDropdownArrow"]'))
+                )
+            except Exception as exc:
+                logger.warning(
+                    "No se pudo localizar el botón de sesión en ningún contexto: %s",
+                    exc,
+                )
+                return False
+
+        try:
+            elemento_sesion.click()
+        except Exception:
+            driver.execute_script("arguments[0].click();", elemento_sesion)
+
+        driver.switch_to.default_content()
+        wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="e1LogoutLink"]'))).click()
+        return True
+    except TimeoutException as exc:
+        logger.warning("Timeout al cerrar sesión: %s", exc)
+        return False
+    except Exception as exc:
+        logger.warning("Error al cerrar sesión: %s", exc)
+        return False
 
 # CORRECCIÓN 2: timeout aumentado a 120s para manejar la carga de tablas grandes (ej. compañía 00533 con +15MB)
 def esperar_registros(driver, timeout=120, intervalo=0.5):

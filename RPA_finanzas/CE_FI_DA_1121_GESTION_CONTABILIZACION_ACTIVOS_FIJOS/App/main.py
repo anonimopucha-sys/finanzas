@@ -84,8 +84,11 @@ def ejecutar_proceso():
 
                 # Inicia proceso de omitir 2A
                 verificar_2A(driver)
-                # Cierra la sesión y el driver
-                cerrar_sesion(driver)
+                # Intenta cerrar la sesión, pero no se detiene si falla.
+                if not cerrar_sesion(driver):
+                    logger.warning(
+                        "No se pudo cerrar la sesión correctamente; se continuará cerrando el navegador."
+                    )
                 cerrar_driver(driver)
 
                 # Avanza al siguiente paso
@@ -193,10 +196,18 @@ def ejecutar_proceso():
                 guardar_estado(estado, PUNTO_DE_CONTROL, variables)
                 print("Se completó correctamente el paso de unificación y filtros simples.")
 
-                # Si existe un Excel de referencia previo, lo usa para comparaciones
+                # Si existe un Excel de referencia previo, lo usa para comparaciones.
                 if estado and estado.get("excel_referencia"):
                     excel_referencia = estado.get("excel_referencia")
-                    usar_excel_referencia(excel_referencia, excel_final)
+                    if os.path.exists(excel_referencia):
+                        usar_excel_referencia(excel_referencia, excel_final)
+                    else:
+                        logger.warning(
+                            "La ruta de excel_referencia guardada en checkpoint ya no existe: %s. Se omitirá la actualización con referencia.",
+                            excel_referencia,
+                        )
+                        estado.pop("excel_referencia", None)
+                        guardar_estado(estado, PUNTO_DE_CONTROL, {})
 
                 # Elimina los informes individuales para liberar espacio
                 eliminar_informes(ruta_archivos, NUMEROS_COMPANIA)
