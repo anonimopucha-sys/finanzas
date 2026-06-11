@@ -99,26 +99,99 @@ def _local_chromedriver_path() -> str | None:
         str(project_root / "chromedriver.exe"),
     ])
 
-    # Agrega rutas encontradas dinámicamente dentro del proyecto para facilitar debugging.
+    user_cache = Path.home() / ".wdm" / "drivers" / "chromedriver"
+    if user_cache.exists():
+        for candidate in user_cache.rglob("chromedriver.exe"):
+            candidates.append(str(candidate))
+
     for candidate in project_root.rglob("chromedriver*"):
         if candidate.is_file():
             candidates.append(str(candidate))
 
+    valid_candidates: list[tuple[str, str]] = []
     for candidate in candidates:
         if candidate and os.path.isfile(candidate):
-            return os.path.abspath(candidate)
+            if not candidate.lower().endswith(".exe"):
+                logger.debug("Ignorando candidato ChromeDriver sin extensión .exe: %s", candidate)
+                continue
 
-    return None
+            try:
+                file_size = os.path.getsize(candidate)
+            except OSError:
+                logger.debug("No se pudo obtener tamaño del archivo ChromeDriver: %s", candidate)
+                continue
+
+            if file_size < 1024:
+                logger.debug("Ignorando candidato ChromeDriver inválido o vacío: %s (tamaño %s bytes)", candidate, file_size)
+                continue
+
+            version = obtener_version_chromedriver(candidate)
+            if not version:
+                logger.debug("Ignorando candidato ChromeDriver sin versión válida: %s", candidate)
+                continue
+
+            valid_candidates.append((version, os.path.abspath(candidate)))
+
+    if not valid_candidates:
+        return None
+
+    valid_candidates.sort(key=lambda item: tuple(int(part) for part in item[0].split(".") if part.isdigit()), reverse=True)
+    chosen = valid_candidates[0][1]
+    logger.debug("Seleccionado ChromeDriver local: %s (versión %s)", chosen, valid_candidates[0][0])
+    return chosen
 
 
-def _install_chromedriver() -> str:
+def _find_cached_chromedriver(chrome_version: str | None = None) -> str | None:
+    user_cache = Path.home() / ".wdm" / "drivers" / "chromedriver"
+    if not user_cache.exists():
+        return None
+
+    candidates: list[tuple[str, str]] = []
+    for candidate in user_cache.rglob("chromedriver.exe"):
+        if candidate.is_file():
+            try:
+                file_size = candidate.stat().st_size
+            except OSError:
+                continue
+            if file_size < 1024:
+                continue
+            version = obtener_version_chromedriver(str(candidate))
+            if version:
+                candidates.append((version, str(candidate)))
+
+    if not candidates:
+        return None
+
+    if chrome_version:
+        chrome_major = chrome_version.split(".")[0]
+        filtered = [item for item in candidates if item[0].startswith(f"{chrome_major}.")]
+        if filtered:
+            candidates = filtered
+
+    candidates.sort(key=lambda item: tuple(int(part) for part in item[0].split(".") if part.isdigit()), reverse=True)
+    return candidates[0][1]
+
+
+def _install_chromedriver(chrome_version: str | None = None) -> str:
     try:
-        driver_path = ChromeDriverManager().install()
+        if chrome_version:
+            manager = ChromeDriverManager()
+        else:
+            manager = ChromeDriverManager()
+
+        driver_path = manager.install()
         _ensure_executable(driver_path)
         logger.info("ChromeDriver resuelto con webdriver-manager: %s", driver_path)
         return driver_path
     except Exception as exc:
         logger.exception("Error instalando ChromeDriver con webdriver-manager")
+        cached_path = _find_cached_chromedriver(chrome_version)
+        if cached_path:
+            logger.warning(
+                "Se encontró ChromeDriver cacheado en %s tras fallo de descarga; usando ese driver.",
+                cached_path,
+            )
+            return cached_path
         raise DriverFatalError(
             "No se pudo resolver ChromeDriver automáticamente. "
             "Verifique la conexión a Internet o proporcione CHROMEDRIVER_PATH. "
@@ -151,6 +224,31 @@ def _find_chrome_executable() -> str | None:
     return None
 
 
+def _windows_chrome_file_version(chrome_path: str) -> str | None:
+    try:
+        escaped_path = chrome_path.replace("'", "''")
+        command = [
+            "powershell",
+            "-NoProfile",
+            "-Command",
+            f"(Get-Item -LiteralPath '{escaped_path}').VersionInfo.ProductVersion",
+        ]
+        result = subprocess.run(
+            command,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            shell=False,
+            timeout=15,
+        )
+        salida = result.stdout.strip() or result.stderr.strip()
+        logger.info("Versión detectada de Chrome vía PowerShell: %s", salida)
+        return _parse_version(salida)
+    except Exception as exc:
+        logger.debug("No se pudo obtener versión de Chrome vía PowerShell: %s", exc)
+        return None
+
+
 def obtener_version_chrome() -> str | None:
     chrome_path = _find_chrome_executable()
 
@@ -174,6 +272,11 @@ def obtener_version_chrome() -> str | None:
                 return version
         except Exception as e:
             logger.warning("Error ejecutando Chrome para versión con comando %s: %s", command, e)
+
+    if _is_windows():
+        version = _windows_chrome_file_version(chrome_path)
+        if version:
+            return version
 
     logger.warning("No se pudo determinar la versión de Chrome a partir de la salida del binario.")
     return None
@@ -279,7 +382,7 @@ def _crear_driver_con_path(driver_path: str, download_dir: str | None, headless:
 
     driver = webdriver.Chrome(service=service, options=options)
     driver.set_page_load_timeout(120)
-    logger.info("Driver iniciado correctamente con ChromeDriver %s", driver_path)
+    logger.debug("Driver iniciado correctamente con ChromeDriver %s", driver_path)
     return driver
 
 
@@ -288,6 +391,13 @@ def crear_driver(download_dir: str | None = None, headless: bool = False) -> web
     if driver_path is None:
         logger.warning("No se encontró ChromeDriver local; intentando resolver con webdriver-manager.")
         driver_path = _install_chromedriver()
+    else:
+        current_driver_version = obtener_version_chromedriver(driver_path)
+        logger.debug(
+            "ChromeDriver local seleccionado: %s (versión %s)",
+            driver_path,
+            current_driver_version or "desconocida",
+        )
 
     try:
         return _crear_driver_con_path(driver_path, download_dir, headless)
@@ -305,12 +415,21 @@ def crear_driver(download_dir: str | None = None, headless: bool = False) -> web
                 "Driver incompatible o versión incorrecta: %s. Intentando resolver con webdriver-manager.",
                 compat_message,
             )
+            logger.warning(
+                "Ruta de ChromeDriver en uso antes del reintento: %s (versión %s)",
+                driver_path,
+                chromedriver_version or "desconocida",
+            )
             try:
-                driver_path = _install_chromedriver()
+                driver_path = _install_chromedriver(chrome_version)
                 chromedriver_version = obtener_version_chromedriver(driver_path)
-                logger.info(
+                logger.debug(
                     "Reintentando con ChromeDriver %s",
                     chromedriver_version,
+                )
+                logger.debug(
+                    "ChromeDriver resuelto después de incompatibilidad: %s",
+                    driver_path,
                 )
                 return _crear_driver_con_path(driver_path, download_dir, headless)
             except Exception as install_exc:

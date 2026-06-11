@@ -67,7 +67,12 @@ def iniciar_driver(
 ) -> tuple[webdriver.Chrome, str | None, str | None]:
     # Configurar directorio de descargas
     if base_dir is not None:
-        ruta_libros, archivo_final = crear_carpeta_libros(base_dir, numero_compañia)
+        if numero_compañia:
+            ruta_libros = os.path.join(base_dir, numero_compañia)
+            os.makedirs(ruta_libros, exist_ok=True)
+            archivo_final = None
+        else:
+            ruta_libros, archivo_final = crear_carpeta_libros(base_dir)
     else:
         ruta_libros = os.path.expanduser("~")
         archivo_final = None
@@ -403,24 +408,29 @@ def verificar_tabla(driver, timeout=30, timeout_scroll=5):
         if tr_count == 0:
             logger.debug("No se encontraron filas en la tabla.")
             return False
-        # Revisar si la última fila contiene la palabra 'total'
-        ultimo_tr = driver.find_element(By.XPATH, f"{tabla_xpath}/tr[{tr_count}]")
-        if "total" in ultimo_tr.get_attribute("innerText").lower():
-            logger.debug("Se encontró la palabra 'total' en el último tr.")
-            return True
-        else:
-            logger.error("No se encontró la palabra 'total' en el último tr.")
-            return False
+
+        filas = driver.find_elements(By.XPATH, f"{tabla_xpath}/tr")
+        for fila in filas:
+            if "total" in fila.get_attribute("innerText").lower():
+                logger.debug("Se encontró la palabra 'total' en la tabla.")
+                return True
+
+        ultimo_tr_text = filas[-1].get_attribute("innerText").lower() if filas else ""
+        logger.error(
+            "No se encontró la palabra 'total' en la tabla. Última fila: %s",
+            ultimo_tr_text.strip()[:200],
+        )
+        return False
     except Exception as e:
         logger.error(f"Error al procesar la tabla: {e}")
         return False
 
-def crear_carpeta_libros(base_dir, numero_compañia):
+def crear_carpeta_libros(base_dir):
     ahora = datetime.now()
     meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
              "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
     nombre_mes = meses[ahora.month - 1]
-     # Obtener día, hora y am/pm
+    # Obtener día, hora y am/pm
     dia = ahora.day
     hora = ahora.strftime("%I")  # Hora en formato 12h con cero inicial
     am_pm = ahora.strftime("%p").lower()  # 'am' o 'pm'
@@ -429,16 +439,13 @@ def crear_carpeta_libros(base_dir, numero_compañia):
     carpeta_fecha_hora = f"{dia}-{hora}{am_pm}"
     nombre_archivo_final = f"Transacciones pendientes por contabilizar en el filtro_{dia}-{nombre_mes}-{ahora.year}_{hora}{am_pm}.xlsx"
 
-    # Ruta completa
-    if numero_compañia:
-        ruta_completa = os.path.join(base_dir, numero_compañia)
-    else:
-        ruta_completa = os.path.join(base_dir, nombre_mes, carpeta_fecha_hora)
+    # Ruta completa para el grupo de descargas de esta ejecución
+    ruta_completa = os.path.join(base_dir, nombre_mes, carpeta_fecha_hora)
 
     # Crear la ruta si no existe
     os.makedirs(ruta_completa, exist_ok=True)
 
-    logger.debug(f"Carpeta creada: {ruta_completa}")
+    logger.debug(f"Carpeta raíz de descargas creada: {ruta_completa}")
     return ruta_completa, nombre_archivo_final
 
 def verificar_2A(driver, timeout=60):
@@ -634,11 +641,21 @@ def reintentos_boton(driver, intentos=3, espera=10):
             if not hacer_click_elementos(driver, By.ID, "C0_100", timeout=30):
                 raise WebDriverException("No se pudo clicar el botón C0_100.")
 
-            WebDriverWait(driver, 30).until(
-                EC.text_to_be_present_in_element((By.ID, "GridLabel0_1.Records"), "Registros")
-            )
-            return True
-        except (ElementClickInterceptedException, MoveTargetOutOfBoundsException, StaleElementReferenceException, WebDriverException) as e:
+            try:
+                WebDriverWait(driver, 30).until(
+                    EC.text_to_be_present_in_element((By.ID, "GridLabel0_1.Records"), "Registros")
+                )
+                return True
+            except TimeoutException:
+                # Si ya hay registros visibles, puede ser que el texto no apareció aún.
+                registros = driver.find_elements(By.XPATH, '//*[@id="jdeGridData0_1"]/tbody/tr')
+                if registros:
+                    logger.debug(
+                        "reintentos_boton: se detectaron filas en la tabla tras click en C0_100, aunque no se encontró el texto 'Registros'."
+                    )
+                    return True
+                raise
+        except (ElementClickInterceptedException, MoveTargetOutOfBoundsException, StaleElementReferenceException, WebDriverException, TimeoutException) as e:
             logger.warning(
                 "reintentos_boton intento %s/%s fallido (%s): %s",
                 i,
@@ -658,6 +675,7 @@ def reintentos_boton(driver, intentos=3, espera=10):
             if i < intentos:
                 time.sleep(espera)
     logger.error("reintentos_boton: se agotaron todos los intentos sin éxito.")
+    return False
     return False
 
 def comprobacion_archivos(carpeta):

@@ -1,9 +1,11 @@
+import os
 from mainencriptador import obtener_credenciales
 from Functions.descarga_informes import (
     iniciar_driver, cerrar_driver, login, navegacion,
     verificar_2A, cerrar_sesion, verficacion_carpetas, sesion_activa,
+    crear_carpeta_libros,
 )
-from Functions.unificacion import exportar_excel
+from Functions.unificacion import exportar_excel, resolver_directorio_descarga
 from Functions.filtros_simples import aplicar_todos_los_filtros
 from Functions.verificacion import verificar_archivo_y_conexion
 from Functions.filtros_complejos import lanzar_instancias
@@ -108,6 +110,17 @@ def ejecutar_proceso():
             try:
                 ruta_archivos = estado.get("ruta_archivos") if estado else None
 
+                # Si el checkpoint contiene una ruta inválida, crear una nueva carpeta de ejecución.
+                if not ruta_archivos or not os.path.isdir(ruta_archivos):
+                    logger.warning(
+                        "Ruta de archivos inválida o no encontrada en el checkpoint: %s. Creando nueva ruta de descarga.",
+                        ruta_archivos,
+                    )
+                    ruta_archivos, _ = crear_carpeta_libros(ARCHIVOS_SALIDA)
+                    variables = {"ruta_archivos": ruta_archivos}
+                    guardar_estado(estado, PUNTO_DE_CONTROL, variables)
+                    print(f"Se creó una nueva carpeta de descarga: {ruta_archivos}")
+
                 # navegacion ya no recibe web_driver (eliminado en esta versión)
                 navegacion(NUMEROS_COMPANIA, ruta_archivos, URL_BASE, USER, PASS)
 
@@ -136,6 +149,20 @@ def ejecutar_proceso():
             try:
                 ruta_archivos = estado.get("ruta_archivos") if estado else None
                 nombre_documento = estado.get("nombre_documento") if estado else None
+
+                if ruta_archivos and not os.path.isdir(ruta_archivos):
+                    ruta_resuelta = resolver_directorio_descarga(ruta_archivos, NUMEROS_COMPANIA)
+                    if ruta_resuelta:
+                        ruta_archivos = ruta_resuelta
+                        variables = {"ruta_archivos": ruta_archivos}
+                        guardar_estado(estado, PUNTO_DE_CONTROL, variables)
+                    else:
+                        logger.error(
+                            "No se pudo resolver la ruta de descarga a partir de '%s'. Proceso detenido.",
+                            ruta_archivos,
+                        )
+                        print("Error: no se pudo resolver la ruta de descarga.")
+                        return
 
                 # Unifica todos los informes descargados en un solo Excel
                 excel = exportar_excel(ruta_archivos, nombre_documento, NUMEROS_COMPANIA)

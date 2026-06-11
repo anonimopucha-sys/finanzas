@@ -10,6 +10,94 @@ from .descarga_informes import verficacion_carpetas
 logger = configurar_logger()
 
 
+def resolver_directorio_descarga(directorio: str, carpetas: list[str]) -> Optional[str]:
+    """Resuelve la ruta real de descarga cuando el checkpoint contiene un directorio inválido o incompleto."""
+    if os.path.isdir(directorio) and verficacion_carpetas(directorio, carpetas):
+        return directorio
+
+    if os.path.isdir(directorio):
+        logger.warning(
+            "La ruta de descarga indicada existe pero no contiene todos los informes: %s. Buscando una ruta válida.",
+            directorio,
+        )
+    else:
+        logger.warning(
+            "La ruta de descarga indicada no existe: %s. Intentando resolverla automáticamente.",
+            directorio,
+        )
+
+    candidato = None
+    buscable = os.path.dirname(directorio)
+    # Navega hacia arriba buscando una carpeta base existente.
+    while buscable and buscable != os.path.dirname(buscable):
+        if os.path.isdir(buscable):
+            break
+        buscable = os.path.dirname(buscable)
+
+    if not os.path.isdir(buscable):
+        logger.error("No se encontró ninguna carpeta base válida para resolver '%s'.", directorio)
+        return None
+
+    if os.path.isdir(directorio):
+        buscable = os.path.dirname(directorio)
+        if os.path.isdir(buscable) and buscable != os.path.dirname(buscable):
+            # Buscar dentro de la carpeta de mes si el directorio actual no es válido
+            subcarpetas = [
+                os.path.join(buscable, nombre)
+                for nombre in os.listdir(buscable)
+                if os.path.isdir(os.path.join(buscable, nombre))
+            ]
+            subcarpetas.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+            for subcarpeta in subcarpetas:
+                if verficacion_carpetas(subcarpeta, carpetas):
+                    logger.info(
+                        "Ruta de descarga resuelta automáticamente a '%s'.",
+                        subcarpeta,
+                    )
+                    return subcarpeta
+
+            if subcarpetas:
+                candidato = subcarpetas[0]
+                logger.warning(
+                    "No se encontró una carpeta que contenga todas las compañías en '%s'. "
+                    "Se usará la subcarpeta más reciente '%s' como candidato.",
+                    buscable,
+                    candidato,
+                )
+                return candidato
+
+            logger.error("No se encontraron subcarpetas válidas bajo '%s'.", buscable)
+            return None
+
+    subcarpetas = [
+        os.path.join(buscable, nombre)
+        for nombre in os.listdir(buscable)
+        if os.path.isdir(os.path.join(buscable, nombre))
+    ]
+    subcarpetas.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+
+    for subcarpeta in subcarpetas:
+        if verficacion_carpetas(subcarpeta, carpetas):
+            logger.info(
+                "Ruta de descarga resuelta automáticamente a '%s'.",
+                subcarpeta,
+            )
+            return subcarpeta
+
+    if subcarpetas:
+        candidato = subcarpetas[0]
+        logger.warning(
+            "No se encontró una carpeta que contenga todas las compañías en '%s'. "
+            "Se usará la subcarpeta más reciente '%s' como candidato.",
+            buscable,
+            candidato,
+        )
+        return candidato
+
+    logger.error("No se encontraron subcarpetas válidas bajo '%s'.", buscable)
+    return None
+
+
 def obtecion_de_archivos(directorio: str, carpetas: list[str]) -> Dict[str, Optional[str]]:  # type: ignore[type-arg]
     resultados = {}
     for carpeta in carpetas:
@@ -100,6 +188,20 @@ def leer_archivos_xml(directorio: str, carpetas: list[str]) -> Dict[str, pd.Data
     return dataframes
 
 def exportar_excel(directorio, nombre, carpetas):
+    if not directorio or not isinstance(directorio, str):
+        logger.error("La ruta de directorio para exportar Excel es inválida: %s", directorio)
+        return None
+
+    if not os.path.isdir(directorio):
+        directorio_resuelto = resolver_directorio_descarga(directorio, carpetas)
+        if not directorio_resuelto:
+            logger.error(
+                "No se pudo resolver la ruta de descarga. Directorio informado: %s",
+                directorio,
+            )
+            return None
+        directorio = directorio_resuelto
+
     try:
         dict_dfs = leer_archivos_xml(directorio, carpetas)
     except Exception as e:
